@@ -1,0 +1,9 @@
+[INFO] 2025-08-27 19:28:20,530 django.utils.autoreload 8644 14100 :: Watching for file changes with StatReloader
+[INFO] 2025-08-27 19:28:27,754 django.utils.autoreload 8644 14100 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-08-27 19:29:39,972 django.utils.autoreload 24168 17988 :: Watching for file changes with StatReloader
+[INFO] 2025-08-27 19:29:44,271 django.server 24168 19828 :: "GET / HTTP/1.1" 200 236
+[WARNING] 2025-08-27 19:29:44,341 django.server 24168 19828 :: "GET /favicon.ico HTTP/1.1" 404 2622
+[INFO] 2025-08-27 19:29:59,290 django.utils.autoreload 24168 17988 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-08-27 19:29:59,780 django.utils.autoreload 16704 12436 :: Watching for file changes with StatReloader
+[INFO] 2025-08-27 19:30:27,788 django.server 16704 15620 :: "GET / HTTP/1.1" 200 223
+[WARNING] 2025-08-27 19:30:27,834 django.server 16704 15620 :: "GET /favicon.ico HTTP/1.1" 404 2622
