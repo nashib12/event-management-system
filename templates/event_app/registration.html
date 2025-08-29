@@ -6,4 +6,7 @@
 <a href="{% url 'create-profile' %}"><button>Profile Create</button></a>
 <a href="{% url 'create-venue' %}"><button>Add Venue</button></a>
 <a href="{% url 'create-event' %}"><button>Add Event</button></a>
+<form action="">
+    {{form.as_p}}
+</form>
 {% endblock content %}

@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
 EXTERNAL_APPS = [
     'event_app',
+    'phonenumber_field',
 ]
 
 INSTALLED_APPS.extend(EXTERNAL_APPS)
