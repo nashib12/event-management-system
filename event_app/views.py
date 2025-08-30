@@ -1,31 +1,41 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
-from django.views.generic.edit import FormView
+from django.views.generic import TemplateView, CreateView
+from django.contrib.auth.models import User
+from django.urls import reverse_lazy
 
 from .forms import *
-
+from .models import *
 
 class HomeView(TemplateView):
     template_name = "event_app/index.html"
-    
-class UserCreationView(FormView):
-    template_name = "event_app/registration.html"
+
+#------------------- Authentication section -------------------------
+class UserCreationView(CreateView):
+    model = User
     form_class = CustomUserCreationForm
-    success_url = "/home/"
+    template_name = "authenticate/registration.html"
+    success_url = reverse_lazy("home")
     
-class ProfileCreationView(FormView):
-    template_name = "event_app/profile_create.html"
+class ProfileCreationView(CreateView):
+    model = Profile
     form_class = ProfileForm
-    success_url = "/home/"
-    
-class VenueCreationView(FormView):
-    template_name = "event_app/venue_create.html"
+    template_name = "event_app/profile_create.html"
+    success_url = reverse_lazy("home")
+
+#------------------------------------ Venue Section ------------------------------------------    
+class VenueCreationView(CreateView):
+    model = Venue
     form_class = VenueForm
-    success_url = "/home/"
+    template_name = "event_app/venue_create.html"
+    success_url = reverse_lazy("home")
     
-class EventCreationView(FormView):
-    template_name = "event_app/event_create.html"
+#--------------------------------------- Event Section ------------------------------------
+class EventCreationView(CreateView):
+    model = Event
     form_class = EventForm
-    success_url = "/home/"
+    template_name = "event_app/event_create.html"
+    success_url = reverse_lazy("home")
+    
+
     
         

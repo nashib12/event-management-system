@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}
+  Registration
+{% endblock title %}
+
+{% block content %}
+  <div class="container mt-4 mb-3">
+    <div class="custom-box">
+        <h1 class="text-center fw-bold mb-3">Create Your Account</h1>
+        <form action="{% url 'registration' %}" method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="fname" class="form-label fs-5 fw-bold">First Name</label>
+                        {{form.first_name}}
+                    </div>
+                    <div class="col-6">
+                        <label for="lname" class="form-label fs-5 fw-bold">Last Name</label>
+                        {{form.last_name}}
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label fs-5 fw-bold">Username:</label>
+                {{form.username}}
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-5 fw-bold">Email:</label>
+                {{form.email}}
+            </div>
+            <div class="mb-3">
+                <label for="password1" class="form-label fs-5 fw-bold">Password:</label>
+                {{form.password1}}
+            </div>
+            <div class="mb-3">
+                <label for="password2" class="form-label fs-5 fw-bold">Confirm Password:</label>
+                {{form.password2}}
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <button type="submit" class="btn btn-lg btn-dark text-light fs-4 fw-bold rounded-3">Register</button>
+            </div>
+        </form>
+        <div class="mb-3 d-flex justify-content-center">
+            <a href="{% url 'home' %}" ><button type="submit" class="btn btn-lg btn-dark text-light fs-4 fw-bold rounded-3">Cancel Registration</button></a>
+        </div>
+    </div>
+  </div>
+{% endblock content %}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Google Sans Code", monospace;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 97px;
+}
+
+body{
+    background: whitesmoke;
+    opacity: 0.8;
+}
+
+.custom-box {
+    background: whitesmoke; 
+    border-radius: 10px; 
+    padding: 30px;
+    max-width: 550px; 
+    margin: 60px auto;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
