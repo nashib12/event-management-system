@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}
+  update Venue
+{% endblock title %}
+
+{% block content %}
+
+  <div class="container mt-4 mb-3">
+    <div class="custom-box">
+        <h1 class="text-center fw-bold mb-3">Update Venue</h1>
+        {% if form.errors %}
+          <div class="alert alert-danger">
+              {{ form.errors }}
+          </div>
+        {% endif %}
+        <form action="" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="name" class="form-label fs-5 fw-bold">Name of Venue:</label>
+                {{form.venue_name}}
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label fs-5 fw-bold">Venue Address:</label>
+                {{form.venue_address}}
+            </div>
+            <div class="mb-3">
+                <label for="contact" class="form-label fs-5 fw-bold">Contact Info:</label>
+                {{form.venue_contact}}
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-5 fw-bold">Email Address:</label>
+                {{form.venue_email}}
+            </div>
+            <div class="mb-3">
+                <label for="website" class="form-label fs-5 fw-bold">Venue website:</label>
+                {{form.venue_website}}
+            </div>
+            <div class="mb-3">
+                <label for="type" class="form-label fs-5 fw-bold">Venue Type:</label>
+                {{form.venue_type}}
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <button type="submit" class="btn btn-lg w-100 btn-dark text-light fs-4 fw-bold rounded-3">Update Venue</button>
+            </div>
+        </form>
+    </div>
+  </div>
+{% endblock content %}
+
+    

@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-lg px-5 pt-4 pb-3 fixed-top bg-dark navbar_background">
     <div class="container-fluid">
-        <a class="navbar-brand fw-bold letter-space-1 fs-4 text-light" href="#">Blog Post</a>
+        <a class="navbar-brand fw-bold letter-space-1 fs-4 text-light" href="{% url 'home' %}">Event Management</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto fs-4 gap-5 nav-menu">
                 <li class="nav-item">
-                <a class="nav-link text-light {% if request.path == '/' %} fs-3 selected_link  {% endif %}" href="#">Home</a>
+                <a class="nav-link text-light {% if request.path == '/' %} fs-3 selected_link  {% endif %}" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="#">Gallery</a>
+                <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="{% url 'view-venue' %}">Venue</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="#">Notification</a>
@@ -34,14 +34,18 @@
                     <ul class="dropdown-menu dropdown-menu-end fs-4 py-3 px-1">
                     {% if not request.user.is_superuser %}
                         <li><a class="dropdown-item" href="#"><i class="fa-regular fa-id-card me-2"></i>&nbsp;View Profile</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-regular fa-id-card me-2"></i>&nbsp;Update Profile</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-blog me-2"></i>&nbsp;Create a blog</a></li>
+                        <li><a class="dropdown-item" href="{% url 'update-profile' user.id %}"><i class="fa-regular fa-id-card me-2"></i>&nbsp;Update Profile</a></li>
+                        <li><a class="dropdown-item" href="{% url 'create-venue' %}"><i class="fa-solid fa-blog me-2"></i>&nbsp;Create a venue</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image me-2"></i>&nbsp;Create album</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image me-2"></i>&nbsp;Add image</a></li>
                         <li><hr class="dropdown-divider"></li>  
                     {% endif %}
                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-key me-2"></i>&nbsp;Change Password</a></li>                
-                    <li><a class="dropdown-item text-danger" href="#"><i class="fa-solid fa-right-from-bracket me-2"></i>&nbsp;Logout</a></li>
+                    <li><form action="{% url 'log-out' %}" method="post">
+                        {% csrf_token %}
+                        <button class="dropdown-item btn-link text-decoration-none" type="submit"><i class="fa-solid fa-right-from-bracket me-2"></i>&nbsp;Logout</button>
+                    </form>
+                    </li>
                     </ul>
                 </li>
                 {% else %}
@@ -50,7 +54,7 @@
                     <i class="fa-regular fa-user me-2 fs-2"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end fs-4 py-3 px-1">
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;Login</a></li>
+                    <li><a class="dropdown-item" href="{% url 'log-in' %}"><i class="fa-solid fa-arrow-right-to-bracket"></i>&nbsp;Login</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="{% url 'registration' %}"><i class="fa-solid fa-user-plus"></i>&nbsp;Register</a></li>
                     </ul>

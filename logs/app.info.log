@@ -1312,3 +1312,1228 @@
 [INFO] 2025-08-30 18:10:32,733 django.server 11912 18328 :: "GET /registration/ HTTP/1.1" 200 7889
 [INFO] 2025-08-30 18:10:36,404 django.server 11912 18328 :: "GET / HTTP/1.1" 200 5280
 [INFO] 2025-08-30 18:10:39,081 django.server 11912 18328 :: "GET /registration/ HTTP/1.1" 200 7889
+[INFO] 2025-08-31 16:29:44,067 django.utils.autoreload 14204 21408 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:29:58,453 django.server 14204 22376 :: "GET / HTTP/1.1" 200 5280
+[INFO] 2025-08-31 16:29:58,549 django.server 14204 22376 :: "GET /static/css/styles.css HTTP/1.1" 304 0
+[INFO] 2025-08-31 16:29:58,555 django.server 14204 22376 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-08-31 16:30:02,263 django.server 14204 22376 :: "GET /registration/ HTTP/1.1" 200 7889
+[INFO] 2025-08-31 16:30:53,673 django.server 14204 22376 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-08-31 16:30:53,680 django.server 14204 22376 :: "GET / HTTP/1.1" 200 5280
+[INFO] 2025-08-31 16:34:22,006 django.utils.autoreload 14204 21408 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-08-31 16:34:22,641 django.utils.autoreload 4612 3008 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:34:24,889 django.utils.autoreload 4612 3008 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-08-31 16:34:25,402 django.utils.autoreload 14780 18568 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:34:49,822 django.utils.autoreload 14780 18568 :: F:\2082.04.05\Event Booking System\project\event_app\validators.py changed, reloading.
+[INFO] 2025-08-31 16:34:50,359 django.utils.autoreload 12076 17032 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:34:56,587 django.utils.autoreload 12076 17032 :: F:\2082.04.05\Event Booking System\project\event_app\validators.py changed, reloading.
+[INFO] 2025-08-31 16:34:57,127 django.utils.autoreload 15180 15144 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:35:02,276 django.utils.autoreload 15180 15144 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-08-31 16:35:02,786 django.utils.autoreload 10476 7380 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:35:07,936 django.utils.autoreload 10476 7380 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-08-31 16:35:08,472 django.utils.autoreload 3228 16264 :: Watching for file changes with StatReloader
+[INFO] 2025-08-31 16:35:18,106 django.server 3228 19116 :: "GET /registration/ HTTP/1.1" 200 7889
+[INFO] 2025-08-31 16:35:59,374 django.server 3228 19116 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-08-31 16:35:59,381 django.server 3228 19116 :: "GET / HTTP/1.1" 200 5280
+[INFO] 2025-08-31 16:38:42,414 django.utils.autoreload 3228 16264 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-08-31 16:38:42,942 django.utils.autoreload 4112 17084 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:31:18,432 django.utils.autoreload 15572 15384 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-01 16:31:23,697 django.server 15572 12000 :: "GET / HTTP/1.1" 500 184240
+[INFO] 2025-09-01 16:31:43,753 django.server 15572 18028 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-01 16:31:43,859 django.server 15572 18028 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-01 16:31:43,864 django.server 15572 17108 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-01 16:31:44,534 django.server 15572 17108 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[ERROR] 2025-09-01 16:31:48,759 django.server 15572 18028 :: "GET /log_in/ HTTP/1.1" 500 139096
+[INFO] 2025-09-01 16:32:39,959 django.utils.autoreload 15572 15384 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:32:40,495 django.utils.autoreload 8692 16812 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-01 16:32:49,319 django.server 8692 18784 :: "GET /log_in/ HTTP/1.1" 500 139361
+[WARNING] 2025-09-01 16:32:49,378 django.server 8692 18784 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-01 16:38:46,228 django.utils.autoreload 8692 16812 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:38:46,795 django.utils.autoreload 16712 7176 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:38:48,005 django.utils.autoreload 16712 7176 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:38:48,473 django.utils.autoreload 16708 6756 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:38:49,669 django.utils.autoreload 16708 6756 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:38:50,161 django.utils.autoreload 20628 5612 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:38:53,321 django.utils.autoreload 20628 5612 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:38:53,756 django.utils.autoreload 5156 9260 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:38:56,879 django.utils.autoreload 5156 9260 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:38:57,486 django.utils.autoreload 12380 14268 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:39:01,701 django.utils.autoreload 12380 14268 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-01 16:39:02,281 django.utils.autoreload 21908 19244 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-01 16:39:05,944 django.server 21908 22236 :: "GET /log_in/ HTTP/1.1" 500 139361
+[WARNING] 2025-09-01 16:39:06,016 django.server 21908 22236 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-01 16:39:09,889 django.server 21908 12368 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-01 16:39:10,027 django.server 21908 12260 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-01 16:39:10,028 django.server 21908 12368 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-01 16:39:10,791 django.server 21908 12260 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[ERROR] 2025-09-01 16:39:13,827 django.server 21908 12368 :: "GET /log_in/ HTTP/1.1" 500 139096
+[INFO] 2025-09-01 16:40:50,125 django.utils.autoreload 21908 19244 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-01 16:40:50,626 django.utils.autoreload 1932 1236 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:40:51,746 django.utils.autoreload 1932 1236 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-01 16:40:52,193 django.utils.autoreload 21660 12424 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:40:54,300 django.utils.autoreload 21660 12424 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-01 16:40:54,831 django.utils.autoreload 9668 5172 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:40:59,980 django.utils.autoreload 9668 5172 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-01 16:41:00,442 django.utils.autoreload 9768 9608 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:41:09,703 django.utils.autoreload 9768 9608 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-01 16:41:10,195 django.utils.autoreload 11036 20420 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:41:14,235 django.server 11036 3272 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-01 16:41:14,324 django.server 11036 10424 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-01 16:41:14,325 django.server 11036 3272 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-01 16:41:14,984 django.server 11036 10424 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-01 16:41:22,480 django.server 11036 3272 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-01 16:41:22,492 django.server 11036 3272 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-01 16:41:22,588 django.server 11036 10424 :: - Broken pipe from ('127.0.0.1', 59752)
+[INFO] 2025-09-01 16:41:51,847 django.server 11036 3272 :: "GET / HTTP/1.1" 200 5582
+[WARNING] 2025-09-01 16:41:55,708 django.server 11036 3272 :: "GET /log_out/ HTTP/1.1" 405 0
+[WARNING] 2025-09-01 16:42:01,242 django.server 11036 3272 :: "GET /log_out/ HTTP/1.1" 405 0
+[INFO] 2025-09-01 16:45:20,824 django.utils.autoreload 11036 20420 :: F:\2082.04.05\Event Booking System\project\event_app\urls.py changed, reloading.
+[INFO] 2025-09-01 16:45:21,294 django.utils.autoreload 23416 8848 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:45:24,513 django.utils.autoreload 23416 8848 :: F:\2082.04.05\Event Booking System\project\event_app\urls.py changed, reloading.
+[INFO] 2025-09-01 16:45:24,997 django.utils.autoreload 3500 11112 :: Watching for file changes with StatReloader
+[INFO] 2025-09-01 16:45:28,854 django.server 3500 13236 :: "GET / HTTP/1.1" 200 5582
+[INFO] 2025-09-01 16:45:28,952 django.server 3500 14004 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-01 16:45:28,956 django.server 3500 13236 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-01 16:45:29,751 django.server 3500 14004 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[WARNING] 2025-09-01 16:45:32,660 django.server 3500 13236 :: "GET /log_out/ HTTP/1.1" 405 0
+[WARNING] 2025-09-01 16:45:45,085 django.server 3500 13236 :: "GET /log_out/ HTTP/1.1" 405 0
+[INFO] 2025-09-02 07:47:42,679 django.utils.autoreload 5524 10012 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:47:47,485 django.server 5524 22044 :: "GET / HTTP/1.1" 200 5582
+[INFO] 2025-09-02 07:47:47,534 django.server 5524 22044 :: "GET /static/css/styles.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 07:47:47,540 django.server 5524 22044 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[WARNING] 2025-09-02 07:47:54,427 django.server 5524 22044 :: "GET /log_out/ HTTP/1.1" 405 0
+[INFO] 2025-09-02 07:49:42,641 django.utils.autoreload 5524 10012 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:49:43,212 django.utils.autoreload 3652 8892 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:49:46,432 django.utils.autoreload 3652 8892 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:49:46,905 django.utils.autoreload 9748 17512 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:49:57,157 django.utils.autoreload 9748 17512 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:49:57,699 django.utils.autoreload 5340 8480 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:49:58,929 django.utils.autoreload 5340 8480 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:49:59,583 django.utils.autoreload 20948 16160 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:50:00,823 django.utils.autoreload 20948 16160 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:51:39,857 django.utils.autoreload 22960 10328 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:51:43,477 django.server 22960 9740 :: "GET / HTTP/1.1" 200 5582
+[INFO] 2025-09-02 07:51:43,591 django.server 22960 9740 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 07:51:43,602 django.server 22960 11396 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 07:51:44,478 django.server 22960 11396 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[WARNING] 2025-09-02 07:51:47,099 django.server 22960 9740 :: "GET /log_out/ HTTP/1.1" 405 0
+[WARNING] 2025-09-02 07:52:29,390 django.server 22960 9740 :: "GET /log_out/ HTTP/1.1" 405 0
+[INFO] 2025-09-02 07:57:22,701 django.server 22960 23000 :: "GET / HTTP/1.1" 200 5865
+[INFO] 2025-09-02 07:57:22,733 django.server 22960 13912 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 07:57:22,738 django.server 22960 23000 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-02 07:57:23,483 django.server 22960 13912 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[WARNING] 2025-09-02 07:57:26,835 django.server 22960 23000 :: "GET /log_out/?csrfmiddlewaretoken=bPl6F1uI7q7YE5LAtsLNcv6l7d7znP2JGZIv9rbSpwxvy3GZoOcqzlvbCHF9TT8w HTTP/1.1" 405 0
+[INFO] 2025-09-02 07:58:46,130 django.utils.autoreload 22960 10328 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 07:58:47,529 django.utils.autoreload 2092 4832 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 07:59:13,946 django.server 2092 22704 :: "GET / HTTP/1.1" 200 5852
+[INFO] 2025-09-02 07:59:14,059 django.server 2092 22704 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 07:59:14,064 django.server 2092 16052 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 07:59:14,827 django.server 2092 16052 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[WARNING] 2025-09-02 07:59:17,222 django.server 2092 22704 :: "GET /log_out/?csrfmiddlewaretoken=HgMUeDUD6Fs0r2pGZSLWpEYLzgI8tNcScq9jI3BNoLSxl0k5UeczMunB4KgIZRiF HTTP/1.1" 405 0
+[INFO] 2025-09-02 07:59:57,630 django.server 2092 19404 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 07:59:57,651 django.server 2092 19404 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 07:59:57,655 django.server 2092 19404 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 07:59:58,410 django.server 2092 19404 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 08:00:00,856 django.server 2092 19404 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 08:00:00,865 django.server 2092 19404 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 08:00:17,694 django.server 2092 19404 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 08:00:32,947 django.server 2092 19404 :: "POST /log_in/ HTTP/1.1" 200 6546
+[INFO] 2025-09-02 08:00:55,932 django.server 2092 19404 :: "POST /log_in/ HTTP/1.1" 200 6546
+[INFO] 2025-09-02 08:01:01,478 django.server 2092 19404 :: "GET /registration/ HTTP/1.1" 200 7896
+[INFO] 2025-09-02 08:01:08,165 django.server 2092 19404 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 08:01:13,082 django.server 2092 19404 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 08:01:17,337 django.server 2092 19404 :: "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 08:01:17,497 django.server 2092 19404 :: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+[INFO] 2025-09-02 08:01:17,532 django.server 2092 19404 :: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,535 django.server 2092 15124 :: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,536 django.server 2092 14364 :: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,538 django.server 2092 19404 :: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,539 django.server 2092 20448 :: "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,542 django.server 2092 16788 :: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:17,543 django.server 2092 7048 :: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:27,004 django.server 2092 19404 :: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 08:01:27,116 django.server 2092 19404 :: "GET /admin/ HTTP/1.1" 200 11008
+[INFO] 2025-09-02 08:01:27,165 django.server 2092 15124 :: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:27,197 django.server 2092 14364 :: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2025-09-02 08:01:27,197 django.server 2092 20448 :: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2025-09-02 08:01:30,329 django.server 2092 19404 :: "GET /admin/auth/user/ HTTP/1.1" 200 16166
+[INFO] 2025-09-02 08:01:30,357 django.server 2092 7048 :: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,368 django.server 2092 19404 :: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,370 django.server 2092 16788 :: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2025-09-02 08:01:30,370 django.server 2092 14364 :: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[INFO] 2025-09-02 08:01:30,371 django.server 2092 7048 :: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,371 django.server 2092 20448 :: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[INFO] 2025-09-02 08:01:30,376 django.server 2092 7048 :: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,380 django.server 2092 14364 :: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,382 django.server 2092 16788 :: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,382 django.server 2092 19404 :: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,382 django.server 2092 20448 :: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,382 django.server 2092 7048 :: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 08:01:30,418 django.server 2092 14364 :: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[INFO] 2025-09-02 08:01:30,539 django.server 2092 15124 :: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-09-02 08:01:30,567 django.server 2092 15124 :: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2025-09-02 08:01:30,567 django.server 2092 20448 :: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[INFO] 2025-09-02 08:01:30,569 django.server 2092 14364 :: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[INFO] 2025-09-02 08:01:47,903 django.server 2092 19404 :: "POST /admin/logout/ HTTP/1.1" 200 3572
+[WARNING] 2025-09-02 08:02:04,706 django.security.csrf 2092 19404 :: Forbidden (CSRF token from POST incorrect.): /log_in/
+[WARNING] 2025-09-02 08:02:04,707 django.server 2092 19404 :: "POST /log_in/ HTTP/1.1" 403 2503
+[INFO] 2025-09-02 08:02:27,274 django.server 2092 19404 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 08:02:49,260 django.utils.autoreload 2092 4832 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 08:02:49,782 django.utils.autoreload 2420 2996 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:15:48,978 django.utils.autoreload 20240 20244 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:15:56,713 django.server 20240 20264 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:16:00,380 django.server 20240 20264 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:16:09,324 django.server 20240 20264 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:16:09,360 django.server 20240 20264 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:16:19,191 django.server 20240 20264 :: "GET /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:16:24,019 django.server 20240 20264 :: "GET /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:16:24,028 django.server 20240 20264 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:16:34,769 django.server 20240 20264 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:16:38,952 django.server 20240 20264 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:16:38,959 django.server 20240 20264 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:16:41,163 django.server 20240 20264 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:17:06,134 django.server 20240 20264 :: "POST /log_in/ HTTP/1.1" 200 6547
+[INFO] 2025-09-02 09:17:26,429 django.server 20240 20264 :: "POST /log_in/ HTTP/1.1" 200 6547
+[INFO] 2025-09-02 09:17:56,781 django.server 20240 16216 :: "POST /log_in/ HTTP/1.1" 200 6547
+[INFO] 2025-09-02 09:17:56,959 django.server 20240 15964 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:17:56,974 django.server 20240 16216 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-02 09:17:58,054 django.server 20240 15964 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 09:18:04,697 django.server 20240 16216 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:08,993 django.server 20240 20660 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:09,017 django.server 20240 20660 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:09,019 django.server 20240 20660 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:09,482 django.server 20240 11544 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:09,505 django.server 20240 11544 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:09,512 django.server 20240 11544 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:09,785 django.server 20240 11196 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:09,802 django.server 20240 11196 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:09,807 django.server 20240 11196 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:10,052 django.server 20240 11088 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:10,070 django.server 20240 11088 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:10,077 django.server 20240 11088 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:10,332 django.server 20240 11104 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:10,352 django.server 20240 11104 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:10,358 django.server 20240 11104 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:10,670 django.server 20240 10112 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:10,693 django.server 20240 10112 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:10,695 django.server 20240 10112 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:10,901 django.server 20240 11780 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:10,919 django.server 20240 11780 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:10,925 django.server 20240 11780 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[INFO] 2025-09-02 09:18:11,107 django.server 20240 11920 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:11,130 django.server 20240 11920 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:18:11,133 django.server 20240 11920 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 09:18:12,494 django.server 20240 11920 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 09:18:13,050 django.server 20240 11920 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:18:15,740 django.server 20240 11920 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:18:26,253 django.server 20240 11920 :: "POST /log_in/ HTTP/1.1" 200 6547
+[INFO] 2025-09-02 09:19:07,498 django.utils.autoreload 20240 20244 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:19:08,093 django.utils.autoreload 21344 21468 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:19:21,390 django.utils.autoreload 21344 21468 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:19:21,903 django.utils.autoreload 17960 6312 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:19:36,222 django.utils.autoreload 17960 6312 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:19:36,695 django.utils.autoreload 21424 12948 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:19:41,906 django.utils.autoreload 21424 12948 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:20:16,159 django.utils.autoreload 18568 17852 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:20:29,816 django.server 18568 18796 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:20:32,437 django.server 18568 18796 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:20:38,978 django.server 18568 18796 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:20:38,990 django.server 18568 18796 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:20:44,397 django.server 18568 18796 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:20:46,945 django.server 18568 18796 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:20:46,951 django.server 18568 18796 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:20:49,230 django.server 18568 18796 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:21:05,895 django.server 18568 18796 :: "POST /log_in/ HTTP/1.1" 200 6547
+[INFO] 2025-09-02 09:21:28,858 django.server 18568 18796 :: "GET /registration/ HTTP/1.1" 200 7896
+[INFO] 2025-09-02 09:21:57,258 django.server 18568 18796 :: "POST /registration/ HTTP/1.1" 200 8002
+[INFO] 2025-09-02 09:22:23,962 django.server 18568 18796 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:22:23,970 django.server 18568 18796 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:22:27,055 django.server 18568 18796 :: "GET /log_in/ HTTP/1.1" 200 6529
+[INFO] 2025-09-02 09:22:37,400 django.server 18568 18796 :: "POST /log_in/ HTTP/1.1" 200 6548
+[INFO] 2025-09-02 09:22:41,286 django.server 18568 18796 :: "POST /log_in/ HTTP/1.1" 200 6548
+[INFO] 2025-09-02 09:26:04,532 django.server 18568 19740 :: "GET /log_in/ HTTP/1.1" 200 6538
+[INFO] 2025-09-02 09:26:19,440 django.server 18568 19740 :: "POST /log_in/ HTTP/1.1" 200 6818
+[INFO] 2025-09-02 09:26:42,950 django.server 18568 19740 :: "POST /log_in/ HTTP/1.1" 200 6816
+[INFO] 2025-09-02 09:26:56,691 django.server 18568 19740 :: "POST /log_in/ HTTP/1.1" 200 6819
+[INFO] 2025-09-02 09:27:48,346 django.utils.autoreload 18568 17852 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 09:27:48,959 django.utils.autoreload 20080 12204 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:27:51,863 django.server 20080 8164 :: "GET /registration/ HTTP/1.1" 200 7896
+[INFO] 2025-09-02 09:28:18,780 django.server 20080 8164 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:28:18,788 django.server 20080 8164 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:28:21,217 django.server 20080 8164 :: "GET /log_in/ HTTP/1.1" 200 6538
+[INFO] 2025-09-02 09:28:28,606 django.server 20080 8164 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:28:28,623 django.server 20080 8164 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:28:35,438 django.server 20080 8164 :: "GET / HTTP/1.1" 200 6339
+[INFO] 2025-09-02 09:29:41,607 django.utils.autoreload 20080 12204 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:29:42,098 django.utils.autoreload 18096 2632 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:29:47,191 django.server 18096 4828 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:29:47,204 django.server 18096 4828 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:29:49,072 django.server 18096 4828 :: "GET /log_in/ HTTP/1.1" 200 6538
+[INFO] 2025-09-02 09:29:56,325 django.server 18096 4828 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:29:56,338 django.server 18096 4828 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:29:59,507 django.server 18096 4828 :: "GET /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:30:03,162 django.server 18096 4828 :: "GET / HTTP/1.1" 200 6339
+[INFO] 2025-09-02 09:30:46,227 django.utils.autoreload 18096 2632 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:30:46,886 django.utils.autoreload 4600 13228 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:31:27,647 django.server 4600 3104 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:31:27,661 django.server 4600 3104 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:31:38,854 django.utils.autoreload 4600 13228 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:31:39,306 django.utils.autoreload 17888 3392 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:31:41,495 django.utils.autoreload 17888 3392 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:31:41,953 django.utils.autoreload 11544 16552 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:31:43,136 django.utils.autoreload 11544 16552 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:31:43,693 django.utils.autoreload 13208 21460 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:31:46,937 django.utils.autoreload 13208 21460 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:31:47,418 django.utils.autoreload 17916 14164 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:31:49,080 django.server 17916 20248 :: "GET / HTTP/1.1" 200 5287
+[INFO] 2025-09-02 09:31:49,152 django.server 17916 20248 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:31:49,157 django.server 17916 19368 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 09:31:50,550 django.server 17916 19368 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 09:31:51,266 django.server 17916 20248 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:32:00,779 django.server 17916 20248 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:32:00,790 django.server 17916 20248 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:35:24,347 django.utils.autoreload 17916 14164 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:35:24,809 django.utils.autoreload 4040 19768 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:35:27,925 django.utils.autoreload 4040 19768 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:35:28,373 django.utils.autoreload 18764 3572 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:35:29,477 django.utils.autoreload 18764 3572 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:35:29,924 django.utils.autoreload 10004 18112 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:35:37,154 django.utils.autoreload 10004 18112 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:35:37,671 django.utils.autoreload 1172 18572 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:35:40,879 django.utils.autoreload 1172 18572 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:35:41,386 django.utils.autoreload 2768 13284 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:35:46,824 django.server 2768 20244 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:35:49,758 django.server 2768 20244 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:35:49,769 django.server 2768 20244 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:35:58,304 django.server 2768 20244 :: "POST /log_in/ HTTP/1.1" 302 0
+[WARNING] 2025-09-02 09:35:58,320 django.server 2768 20244 :: "GET /accounts/profile/ HTTP/1.1" 404 4224
+[INFO] 2025-09-02 09:36:07,986 django.utils.autoreload 2768 13284 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:36:08,491 django.utils.autoreload 11948 7576 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:11,761 django.utils.autoreload 11948 7576 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:12,231 django.utils.autoreload 7088 1048 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:17,447 django.utils.autoreload 7088 1048 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:17,942 django.utils.autoreload 1340 15720 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:23,130 django.utils.autoreload 1340 15720 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:23,592 django.utils.autoreload 15788 16144 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:24,766 django.utils.autoreload 15788 16144 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:25,226 django.utils.autoreload 9860 18164 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:33,704 django.server 9860 15752 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:36:36,310 django.server 9860 15752 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:36:36,320 django.server 9860 15752 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:36:43,272 django.server 9860 15752 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:36:43,319 django.server 9860 15752 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:36:45,996 django.server 9860 15752 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:36:46,004 django.server 9860 15752 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:36:52,813 django.utils.autoreload 9860 18164 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:53,332 django.utils.autoreload 16840 10324 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:36:55,517 django.utils.autoreload 16840 10324 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:36:55,968 django.utils.autoreload 17884 7964 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:37:06,218 django.utils.autoreload 17884 7964 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:38:21,875 django.utils.autoreload 18812 7432 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:38:25,878 django.server 18812 16332 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:38:25,954 django.server 18812 16332 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:38:25,961 django.server 18812 1360 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 09:38:27,130 django.server 18812 1360 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 09:38:33,411 django.server 18812 16332 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:38:33,458 django.server 18812 16332 :: "GET / HTTP/1.1" 200 5866
+[INFO] 2025-09-02 09:38:35,509 django.server 18812 16332 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:38:35,516 django.server 18812 16332 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 09:39:36,857 django.server 18812 5080 :: "GET /log_in/ HTTP/1.1" 200 6544
+[INFO] 2025-09-02 09:39:36,878 django.server 18812 5080 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 09:39:36,880 django.server 18812 5080 :: "GET /static/js/scripts.js HTTP/1.1" 200 0
+[WARNING] 2025-09-02 09:39:38,122 django.server 18812 5080 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 09:39:38,868 django.server 18812 5080 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 09:39:40,098 django.server 18812 5080 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 09:39:42,522 django.server 18812 5080 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 09:40:22,394 django.utils.autoreload 18812 7432 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:40:22,867 django.utils.autoreload 4420 8824 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:40:25,064 django.utils.autoreload 4420 8824 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:40:25,533 django.utils.autoreload 20660 17328 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:40:28,640 django.server 20660 7692 :: "GET /log_in/ HTTP/1.1" 200 6544
+[INFO] 2025-09-02 09:40:36,048 django.server 20660 7692 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:40:36,096 django.server 20660 7692 :: "GET / HTTP/1.1" 200 5873
+[INFO] 2025-09-02 09:40:39,155 django.server 20660 7692 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 09:40:39,162 django.server 20660 7692 :: "GET /log_in/ HTTP/1.1" 200 6544
+[INFO] 2025-09-02 09:40:41,698 django.server 20660 7692 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 09:41:53,668 django.utils.autoreload 20660 17328 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:41:54,140 django.utils.autoreload 15716 6216 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:42:03,400 django.utils.autoreload 15716 6216 :: F:\2082.04.05\Event Booking System\project\project\settings.py changed, reloading.
+[INFO] 2025-09-02 09:42:03,887 django.utils.autoreload 476 8060 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 09:46:09,554 django.utils.autoreload 476 8060 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 09:46:10,121 django.utils.autoreload 19508 18540 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:18:22,685 django.utils.autoreload 20236 6360 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:18:25,370 django.server 20236 4140 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 12:18:25,473 django.server 20236 4140 :: - Broken pipe from ('127.0.0.1', 49402)
+[INFO] 2025-09-02 12:18:28,201 django.server 20236 10784 :: "GET /registration/ HTTP/1.1" 200 7912
+[INFO] 2025-09-02 12:19:11,531 django.server 20236 10784 :: "POST /registration/ HTTP/1.1" 302 0
+[ERROR] 2025-09-02 12:19:11,782 django.server 20236 10784 :: "GET /profile_create/ HTTP/1.1" 500 85769
+[INFO] 2025-09-02 12:19:33,490 django.utils.autoreload 20236 6360 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:34,039 django.utils.autoreload 19300 3504 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:19:35,244 django.utils.autoreload 19300 3504 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:35,742 django.utils.autoreload 18576 17712 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:19:38,989 django.utils.autoreload 18576 17712 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:39,472 django.utils.autoreload 2940 8700 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:19:50,831 django.utils.autoreload 2940 8700 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:51,340 django.utils.autoreload 13580 6444 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:19:52,526 django.utils.autoreload 13580 6444 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:53,017 django.utils.autoreload 7996 12032 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:19:55,259 django.utils.autoreload 7996 12032 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:19:55,741 django.utils.autoreload 14096 11976 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-02 12:19:57,566 django.server 14096 11160 :: "GET /profile_create/ HTTP/1.1" 500 86076
+[WARNING] 2025-09-02 12:19:57,624 django.server 14096 11160 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:20:12,222 django.utils.autoreload 14096 11976 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:20:12,724 django.utils.autoreload 3700 17512 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:20:15,992 django.utils.autoreload 3700 17512 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:20:16,527 django.utils.autoreload 18144 13288 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:20:17,733 django.utils.autoreload 18144 13288 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:20:18,225 django.utils.autoreload 14704 13644 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:20:19,435 django.utils.autoreload 14704 13644 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:20:19,929 django.utils.autoreload 2768 13820 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:20:23,152 django.utils.autoreload 2768 13820 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:20:23,665 django.utils.autoreload 6436 5392 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:20:27,976 django.server 6436 10728 :: "GET /profile_create/ HTTP/1.1" 200 14044
+[INFO] 2025-09-02 12:22:48,721 django.utils.autoreload 6436 5392 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 12:22:49,200 django.utils.autoreload 1032 8620 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:22:59,560 django.utils.autoreload 1032 8620 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 12:23:00,040 django.utils.autoreload 12476 4080 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:23:04,297 django.utils.autoreload 12476 4080 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 12:23:04,864 django.utils.autoreload 14620 20352 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:23:07,011 django.utils.autoreload 14620 20352 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 12:23:07,511 django.utils.autoreload 18012 11908 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:23:12,686 django.utils.autoreload 18012 11908 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-02 12:23:13,218 django.utils.autoreload 5420 13668 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:23:21,044 django.server 5420 13376 :: "GET /profile_create/ HTTP/1.1" 200 14048
+[INFO] 2025-09-02 12:23:21,135 django.server 5420 13376 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:23:21,209 django.server 5420 7496 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:23:22,783 django.server 5420 7496 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:24:05,338 django.server 5420 10860 :: "GET /profile_create/ HTTP/1.1" 200 14054
+[INFO] 2025-09-02 12:24:05,363 django.server 5420 10860 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:24:05,369 django.server 5420 10860 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:24:06,492 django.server 5420 10860 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:24:42,680 django.server 5420 5776 :: "GET /profile_create/ HTTP/1.1" 200 14060
+[INFO] 2025-09-02 12:24:42,709 django.server 5420 5776 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:24:42,713 django.server 5420 5776 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:24:43,585 django.server 5420 5776 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:25:48,163 django.server 5420 11068 :: "GET /profile_create/ HTTP/1.1" 200 13844
+[INFO] 2025-09-02 12:25:48,194 django.server 5420 11068 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:25:48,201 django.server 5420 11104 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:25:49,149 django.server 5420 11104 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:27:36,868 django.server 5420 11068 :: "POST /profile_create/ HTTP/1.1" 200 14248
+[INFO] 2025-09-02 12:27:36,903 django.server 5420 11104 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 12:28:30,804 django.server 5420 11068 :: "GET /profile_create/ HTTP/1.1" 200 14095
+[ERROR] 2025-09-02 12:29:16,597 django.server 5420 11068 :: "POST /profile_create/ HTTP/1.1" 500 173915
+[INFO] 2025-09-02 12:31:47,275 django.utils.autoreload 5420 13668 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:31:47,980 django.utils.autoreload 8848 14384 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:31:55,215 django.utils.autoreload 8848 14384 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:31:55,780 django.utils.autoreload 19768 21336 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:31:57,968 django.utils.autoreload 19768 21336 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:31:58,547 django.utils.autoreload 9968 1648 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:00,770 django.utils.autoreload 9968 1648 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:01,385 django.utils.autoreload 13456 14064 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:06,611 django.utils.autoreload 13456 14064 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:07,125 django.utils.autoreload 6404 1036 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:11,342 django.utils.autoreload 6404 1036 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:11,916 django.utils.autoreload 10232 12908 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:18,133 django.utils.autoreload 10232 12908 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:18,594 django.utils.autoreload 9232 14940 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:34,913 django.utils.autoreload 9232 14940 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:35,426 django.utils.autoreload 14516 3920 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:37,650 django.utils.autoreload 14516 3920 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:38,135 django.utils.autoreload 19760 8848 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:39,310 django.utils.autoreload 19760 8848 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:39,865 django.utils.autoreload 11304 6000 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:43,063 django.utils.autoreload 11304 6000 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:43,601 django.utils.autoreload 21312 15656 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:44,776 django.utils.autoreload 21312 15656 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:45,297 django.utils.autoreload 5088 20340 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:49,500 django.utils.autoreload 5088 20340 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:50,002 django.utils.autoreload 840 8944 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:52,202 django.utils.autoreload 840 8944 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:52,765 django.utils.autoreload 9680 20560 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:32:57,982 django.utils.autoreload 9680 20560 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:32:58,462 django.utils.autoreload 8188 12444 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:01,656 django.utils.autoreload 8188 12444 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:02,163 django.utils.autoreload 19864 14840 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:04,350 django.utils.autoreload 19864 14840 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:04,802 django.utils.autoreload 11412 10132 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:11,038 django.utils.autoreload 11412 10132 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:11,575 django.utils.autoreload 6576 11804 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:13,775 django.utils.autoreload 6576 11804 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:14,230 django.utils.autoreload 12380 11884 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:15,402 django.utils.autoreload 12380 11884 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:15,877 django.utils.autoreload 14200 21208 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:18,052 django.utils.autoreload 14200 21208 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:18,535 django.utils.autoreload 12484 19856 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:20,728 django.utils.autoreload 12484 19856 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:21,219 django.utils.autoreload 12420 16788 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:22,395 django.utils.autoreload 12420 16788 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:22,897 django.utils.autoreload 12152 14064 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:29,122 django.utils.autoreload 12152 14064 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:29,691 django.utils.autoreload 16044 15684 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:32,901 django.utils.autoreload 16044 15684 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:33,457 django.utils.autoreload 15644 6208 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:36,650 django.utils.autoreload 15644 6208 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:37,115 django.utils.autoreload 21456 16280 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:43,330 django.utils.autoreload 21456 16280 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:43,845 django.utils.autoreload 2772 14068 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:45,022 django.utils.autoreload 2772 14068 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:45,526 django.utils.autoreload 9012 10268 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:33:47,728 django.utils.autoreload 9012 10268 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:33:48,182 django.utils.autoreload 20324 21460 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:05,500 django.utils.autoreload 20324 21460 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:05,965 django.utils.autoreload 10264 10728 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:07,151 django.utils.autoreload 10264 10728 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:07,601 django.utils.autoreload 12728 18656 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:12,821 django.utils.autoreload 12728 18656 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:13,304 django.utils.autoreload 12152 17472 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:14,472 django.utils.autoreload 12152 17472 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:15,002 django.utils.autoreload 3716 11980 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:19,259 django.utils.autoreload 3716 11980 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:19,750 django.utils.autoreload 1432 2780 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:28,037 django.utils.autoreload 1432 2780 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:28,512 django.utils.autoreload 14296 20888 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:34,794 django.utils.autoreload 14296 20888 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:35,351 django.utils.autoreload 9628 5976 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:36,548 django.utils.autoreload 9628 5976 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:37,057 django.utils.autoreload 13420 19716 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:42,303 django.utils.autoreload 13420 19716 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:42,800 django.utils.autoreload 6180 2328 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:46,024 django.utils.autoreload 6180 2328 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:46,574 django.utils.autoreload 1452 4888 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:55,879 django.utils.autoreload 1452 4888 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:34:56,366 django.utils.autoreload 3560 4344 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:34:59,563 django.utils.autoreload 3560 4344 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:35:00,072 django.utils.autoreload 5376 5344 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:35:20,521 django.utils.autoreload 5376 5344 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:35:21,067 django.utils.autoreload 4960 2936 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:35:26,318 django.utils.autoreload 4960 2936 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:35:26,877 django.utils.autoreload 20628 19396 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:35:50,293 django.utils.autoreload 20628 19396 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:35:50,754 django.utils.autoreload 396 20000 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:35:54,990 django.utils.autoreload 396 20000 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:35:55,468 django.utils.autoreload 11896 10520 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:35:59,685 django.utils.autoreload 11896 10520 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:36:00,162 django.utils.autoreload 9660 20588 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:36:27,109 django.server 9660 14740 :: "GET /profile_create/ HTTP/1.1" 200 14095
+[INFO] 2025-09-02 12:36:29,778 django.server 9660 14740 :: "GET /profile_create/ HTTP/1.1" 200 14095
+[INFO] 2025-09-02 12:36:29,807 django.server 9660 14740 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 12:36:35,190 django.server 9660 6628 :: "GET /profile_create/ HTTP/1.1" 200 14095
+[INFO] 2025-09-02 12:36:35,374 django.server 9660 4756 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[INFO] 2025-09-02 12:36:35,378 django.server 9660 6628 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-02 12:36:37,002 django.server 9660 4756 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:37:05,833 django.server 9660 11172 :: "GET /profile_create/ HTTP/1.1" 200 14125
+[INFO] 2025-09-02 12:37:05,859 django.server 9660 11172 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:37:05,860 django.server 9660 11172 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:37:07,148 django.server 9660 11172 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[ERROR] 2025-09-02 12:37:41,703 django.server 9660 11172 :: "POST /profile_create/ HTTP/1.1" 500 110747
+[INFO] 2025-09-02 12:38:04,196 django.utils.autoreload 9660 20588 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:38:04,759 django.utils.autoreload 13840 11920 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:38:05,974 django.utils.autoreload 13840 11920 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:38:06,503 django.utils.autoreload 17804 2780 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-02 12:38:11,758 django.server 17804 9752 :: "POST /profile_create/ HTTP/1.1" 500 110920
+[WARNING] 2025-09-02 12:38:11,826 django.server 17804 9752 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:42:45,162 django.utils.autoreload 17804 2780 :: F:\2082.04.05\Event Booking System\project\event_app\signals.py changed, reloading.
+[INFO] 2025-09-02 12:42:45,709 django.utils.autoreload 6912 2236 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:42:57,062 django.utils.autoreload 6912 2236 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:42:57,668 django.utils.autoreload 3856 9384 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:01,818 django.utils.autoreload 3856 9384 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:02,334 django.utils.autoreload 20796 21360 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:03,459 django.utils.autoreload 20796 21360 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:03,902 django.utils.autoreload 21332 11084 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:08,174 django.utils.autoreload 21332 11084 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:08,630 django.utils.autoreload 1072 6456 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:09,732 django.utils.autoreload 1072 6456 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:10,186 django.utils.autoreload 11744 14352 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:12,306 django.utils.autoreload 11744 14352 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:12,756 django.utils.autoreload 13892 11284 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:15,997 django.utils.autoreload 13892 11284 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:16,547 django.utils.autoreload 16564 2868 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:24,743 django.utils.autoreload 16564 2868 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:25,205 django.utils.autoreload 16944 14244 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:28,458 django.utils.autoreload 16944 14244 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:29,096 django.utils.autoreload 832 20920 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:33,345 django.utils.autoreload 832 20920 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:33,910 django.utils.autoreload 16120 1784 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:36,143 django.utils.autoreload 16120 1784 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:36,658 django.utils.autoreload 6772 8948 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:37,903 django.utils.autoreload 6772 8948 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:38,379 django.utils.autoreload 14196 3828 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:40,606 django.utils.autoreload 14196 3828 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:41,201 django.utils.autoreload 19024 10276 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:44,335 django.utils.autoreload 19024 10276 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:44,841 django.utils.autoreload 13324 10640 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:45,967 django.utils.autoreload 13324 10640 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:46,472 django.utils.autoreload 10728 5752 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:48,695 django.utils.autoreload 10728 5752 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:49,244 django.utils.autoreload 12844 3560 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:50,354 django.utils.autoreload 12844 3560 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:50,956 django.utils.autoreload 17276 15596 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:55,203 django.utils.autoreload 17276 15596 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:55,732 django.utils.autoreload 3416 14696 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:57,951 django.utils.autoreload 3416 14696 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:43:58,425 django.utils.autoreload 7880 15224 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:43:59,660 django.utils.autoreload 7880 15224 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:44:00,126 django.utils.autoreload 13536 1424 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:44:01,335 django.utils.autoreload 13536 1424 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:44:01,805 django.utils.autoreload 15364 8152 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-02 12:44:09,295 django.server 15364 1160 :: "POST /profile_create/ HTTP/1.1" 500 101631
+[WARNING] 2025-09-02 12:44:09,375 django.server 15364 1160 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:44:24,602 django.server 15364 1160 :: "GET /profile_create/ HTTP/1.1" 200 14125
+[INFO] 2025-09-02 12:44:27,631 django.server 15364 1160 :: "GET /profile_create/ HTTP/1.1" 200 14125
+[INFO] 2025-09-02 12:44:27,659 django.server 15364 1160 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 12:44:29,085 django.server 15364 4044 :: "GET /profile_create/ HTTP/1.1" 200 14125
+[INFO] 2025-09-02 12:44:29,166 django.server 15364 14952 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[INFO] 2025-09-02 12:44:29,170 django.server 15364 4044 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[WARNING] 2025-09-02 12:44:30,518 django.server 15364 14952 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[ERROR] 2025-09-02 12:44:58,504 django.server 15364 4044 :: "POST /profile_create/ HTTP/1.1" 500 101366
+[INFO] 2025-09-02 12:45:45,671 django.utils.autoreload 15364 8152 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:45:46,245 django.utils.autoreload 11940 1644 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:45:51,524 django.utils.autoreload 11940 1644 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:45:51,993 django.utils.autoreload 4252 11736 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:45:53,096 django.utils.autoreload 4252 11736 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:45:53,612 django.utils.autoreload 14064 19344 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:45:54,725 django.utils.autoreload 14064 19344 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:45:55,239 django.utils.autoreload 20260 8124 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:45:58,372 django.utils.autoreload 20260 8124 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:45:58,824 django.utils.autoreload 18252 9752 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:45:59,930 django.utils.autoreload 18252 9752 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:00,427 django.utils.autoreload 14052 12136 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:01,568 django.utils.autoreload 14052 12136 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:02,107 django.utils.autoreload 13316 12616 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:05,240 django.utils.autoreload 13316 12616 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:05,785 django.utils.autoreload 12400 16520 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:07,906 django.utils.autoreload 12400 16520 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:08,381 django.utils.autoreload 21432 14380 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:14,579 django.utils.autoreload 21432 14380 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:15,053 django.utils.autoreload 13376 5220 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:22,381 django.utils.autoreload 13376 5220 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:22,894 django.utils.autoreload 476 15944 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:25,026 django.utils.autoreload 476 15944 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:25,488 django.utils.autoreload 9476 1084 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:26,674 django.utils.autoreload 9476 1084 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:27,123 django.utils.autoreload 12128 15628 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:28,323 django.utils.autoreload 12128 15628 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:28,785 django.utils.autoreload 11156 11084 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:29,931 django.utils.autoreload 11156 11084 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:30,415 django.utils.autoreload 20544 8744 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:35,674 django.utils.autoreload 20544 8744 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:36,135 django.utils.autoreload 20272 14624 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:38,247 django.utils.autoreload 20272 14624 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:38,703 django.utils.autoreload 16140 3844 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:46:45,874 django.utils.autoreload 16140 3844 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:46:46,326 django.utils.autoreload 20788 15720 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:11,876 django.utils.autoreload 20788 15720 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:12,365 django.utils.autoreload 2708 14224 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:18,639 django.utils.autoreload 2708 14224 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:19,139 django.utils.autoreload 18268 7164 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:20,242 django.utils.autoreload 18268 7164 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:20,730 django.utils.autoreload 16792 15320 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:23,967 django.utils.autoreload 16792 15320 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:24,445 django.utils.autoreload 1508 15364 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:25,692 django.utils.autoreload 1508 15364 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:26,176 django.utils.autoreload 19020 13136 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:27,274 django.utils.autoreload 19020 13136 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:47:27,832 django.utils.autoreload 19972 20260 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:47:30,462 django.server 19972 18148 :: "GET /profile_create/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 12:47:30,492 django.server 19972 18148 :: "GET /log_in/?next=/profile_create/ HTTP/1.1" 200 6537
+[INFO] 2025-09-02 12:57:27,639 django.utils.autoreload 19972 20260 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:28,352 django.utils.autoreload 11452 17124 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:29,499 django.utils.autoreload 11452 17124 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:29,936 django.utils.autoreload 4980 13972 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:33,066 django.utils.autoreload 4980 13972 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:33,505 django.utils.autoreload 12920 1964 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:37,647 django.utils.autoreload 12920 1964 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:38,164 django.utils.autoreload 14012 396 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:41,291 django.utils.autoreload 14012 396 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:41,797 django.utils.autoreload 16624 7660 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:42,903 django.utils.autoreload 16624 7660 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:43,364 django.utils.autoreload 10640 9688 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:51,678 django.utils.autoreload 10640 9688 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:52,213 django.utils.autoreload 10672 11320 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:57,500 django.utils.autoreload 10672 11320 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:58,065 django.utils.autoreload 13644 7832 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:57:59,173 django.utils.autoreload 13644 7832 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:57:59,707 django.utils.autoreload 12796 12956 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:01,819 django.utils.autoreload 12796 12956 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:02,409 django.utils.autoreload 21436 19552 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:03,512 django.utils.autoreload 21436 19552 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:03,993 django.utils.autoreload 20936 16020 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:11,189 django.utils.autoreload 20936 16020 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:11,769 django.utils.autoreload 9012 15764 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:42,427 django.utils.autoreload 9012 15764 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:42,906 django.utils.autoreload 2872 12248 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:47,047 django.utils.autoreload 2872 12248 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:47,537 django.utils.autoreload 8920 18636 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:48,658 django.utils.autoreload 8920 18636 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:49,152 django.utils.autoreload 3188 7428 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:52,393 django.utils.autoreload 3188 7428 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:52,851 django.utils.autoreload 17512 19952 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:58:57,089 django.utils.autoreload 17512 19952 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:58:57,590 django.utils.autoreload 10500 8324 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:00,869 django.utils.autoreload 10500 8324 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:01,360 django.utils.autoreload 16072 19276 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:04,624 django.utils.autoreload 16072 19276 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:05,129 django.utils.autoreload 8688 20180 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:06,228 django.utils.autoreload 8688 20180 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:06,751 django.utils.autoreload 19088 1072 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:07,977 django.utils.autoreload 19088 1072 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:08,484 django.utils.autoreload 4292 8412 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:09,683 django.utils.autoreload 4292 8412 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:10,166 django.utils.autoreload 4384 15764 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:19,502 django.utils.autoreload 4384 15764 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:20,008 django.utils.autoreload 18728 18808 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:25,310 django.utils.autoreload 18728 18808 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-02 12:59:25,792 django.utils.autoreload 20920 5392 :: Watching for file changes with StatReloader
+[INFO] 2025-09-02 12:59:32,192 django.server 20920 17512 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 12:59:32,225 django.server 20920 17512 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-09-02 12:59:33,640 django.server 20920 5972 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-02 12:59:33,789 django.server 20920 5972 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-02 12:59:33,793 django.server 20920 8784 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-02 12:59:34,801 django.server 20920 8784 :: "GET /favicon.ico HTTP/1.1" 404 4206
+[INFO] 2025-09-02 12:59:38,963 django.server 20920 5972 :: "GET /registration/ HTTP/1.1" 200 7912
+[INFO] 2025-09-02 13:00:18,218 django.server 20920 5972 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 13:00:18,385 django.server 20920 5972 :: "GET /profile_create/ HTTP/1.1" 200 15166
+[INFO] 2025-09-02 13:00:42,267 django.server 20920 5972 :: "POST /profile_create/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 13:00:42,319 django.server 20920 5972 :: "GET / HTTP/1.1" 200 6344
+[INFO] 2025-09-02 13:00:44,809 django.server 20920 5972 :: "GET / HTTP/1.1" 200 6344
+[INFO] 2025-09-02 13:01:45,339 django.server 20920 5972 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-02 13:01:45,348 django.server 20920 5972 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-04 14:33:12,707 django.utils.autoreload 2692 9148 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:33:16,974 django.server 2692 22900 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-04 14:33:17,084 django.server 2692 22900 :: "GET /static/css/styles.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 14:33:17,093 django.server 2692 22900 :: "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 14:34:14,271 django.server 2692 22900 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-04 14:34:22,407 django.server 2692 22900 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:34:22,462 django.server 2692 22900 :: "GET / HTTP/1.1" 200 6359
+[ERROR] 2025-09-04 14:34:27,503 django.server 2692 22900 :: "GET /update_profile/ HTTP/1.1" 500 90503
+[INFO] 2025-09-04 14:36:09,523 django.utils.autoreload 2692 9148 :: F:\2082.04.05\Event Booking System\project\event_app\urls.py changed, reloading.
+[INFO] 2025-09-04 14:36:10,519 django.utils.autoreload 26964 17288 :: Watching for file changes with StatReloader
+[WARNING] 2025-09-04 14:36:13,598 django.server 26964 26840 :: "GET /update_profile/ HTTP/1.1" 404 4503
+[WARNING] 2025-09-04 14:36:13,715 django.server 26964 26840 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[ERROR] 2025-09-04 14:36:21,856 django.server 26964 8796 :: "GET / HTTP/1.1" 500 190183
+[WARNING] 2025-09-04 14:36:22,033 django.server 26964 27552 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:36:43,759 django.server 26964 25696 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:36:43,927 django.server 26964 25696 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:36:43,960 django.server 26964 20888 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:36:44,279 django.server 26964 20888 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[ERROR] 2025-09-04 14:36:47,665 django.server 26964 25696 :: "GET /update_profile/8 HTTP/1.1" 500 158976
+[INFO] 2025-09-04 14:37:05,260 django.server 26964 26448 :: "GET /update_profile/8 HTTP/1.1" 200 15203
+[INFO] 2025-09-04 14:37:05,286 django.server 26964 26448 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:37:05,291 django.server 26964 26448 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:37:05,665 django.server 26964 26448 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:37:14,174 django.server 26964 26448 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:37:14,233 django.server 26964 26448 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:37:30,959 django.server 26964 26448 :: "GET /update_profile/8 HTTP/1.1" 200 15211
+[INFO] 2025-09-04 14:37:45,444 django.server 26964 26448 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:37:45,492 django.server 26964 26448 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:38:34,340 django.server 26964 26448 :: "GET /update_profile/8 HTTP/1.1" 200 15211
+[INFO] 2025-09-04 14:38:46,211 django.server 26964 26448 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:53:26,907 django.utils.autoreload 22080 15816 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:53:34,903 django.server 22080 13976 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:53:35,143 django.server 22080 13976 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:53:35,144 django.server 22080 12860 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:53:35,660 django.server 22080 12860 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:53:38,081 django.server 22080 13976 :: "GET /update_profile/8 HTTP/1.1" 200 15211
+[INFO] 2025-09-04 14:53:45,802 django.server 22080 13976 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:53:45,853 django.server 22080 13976 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:55:40,466 django.server 22080 24224 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:55:40,490 django.server 22080 24224 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:55:40,494 django.server 22080 24224 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:55:40,883 django.server 22080 24224 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:55:43,873 django.server 22080 24224 :: "GET /update_profile/8 HTTP/1.1" 200 15202
+[INFO] 2025-09-04 14:55:50,794 django.server 22080 24224 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:55:50,838 django.server 22080 24224 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:56:15,259 django.utils.autoreload 22080 15816 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:56:15,777 django.utils.autoreload 26280 8624 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:56:18,025 django.utils.autoreload 26280 8624 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:56:18,508 django.utils.autoreload 26748 11868 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:56:20,639 django.utils.autoreload 26748 11868 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:56:21,084 django.utils.autoreload 10480 23924 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:56:23,349 django.utils.autoreload 10480 23924 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:56:23,857 django.utils.autoreload 396 22728 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:56:30,698 django.server 396 25604 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:56:30,780 django.server 396 25604 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:56:30,783 django.server 396 24744 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:56:31,225 django.server 396 24744 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:56:33,566 django.server 396 25604 :: "GET /update_profile/8 HTTP/1.1" 200 15202
+[INFO] 2025-09-04 14:56:37,282 django.server 396 25604 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:56:37,327 django.server 396 25604 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:57:17,564 django.utils.autoreload 396 22728 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:18,053 django.utils.autoreload 21336 25016 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:29,416 django.utils.autoreload 21336 25016 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:30,058 django.utils.autoreload 8040 25520 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:31,185 django.utils.autoreload 8040 25520 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:31,681 django.utils.autoreload 12164 24572 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:32,794 django.utils.autoreload 12164 24572 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:33,284 django.utils.autoreload 18012 26648 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:35,422 django.utils.autoreload 18012 26648 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:35,930 django.utils.autoreload 15556 8576 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:37,071 django.utils.autoreload 15556 8576 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:37,510 django.utils.autoreload 13104 26192 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:42,710 django.utils.autoreload 13104 26192 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:43,183 django.utils.autoreload 20580 10416 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:44,385 django.utils.autoreload 20580 10416 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:44,837 django.utils.autoreload 22252 24448 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:49,143 django.utils.autoreload 22252 24448 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:49,657 django.utils.autoreload 6588 19084 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:51,882 django.utils.autoreload 6588 19084 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:52,342 django.utils.autoreload 24304 26968 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:53,549 django.utils.autoreload 24304 26968 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:54,017 django.utils.autoreload 16188 23472 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:57,164 django.utils.autoreload 16188 23472 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:57:57,625 django.utils.autoreload 19040 23504 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:57:59,837 django.utils.autoreload 19040 23504 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:00,324 django.utils.autoreload 27288 16760 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:58:06,498 django.utils.autoreload 27288 16760 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:06,958 django.utils.autoreload 24364 1756 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:58:09,085 django.utils.autoreload 24364 1756 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:09,536 django.utils.autoreload 13440 10128 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:58:12,677 django.utils.autoreload 13440 10128 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:13,177 django.utils.autoreload 8796 23276 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:58:23,539 django.utils.autoreload 8796 23276 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:24,065 django.utils.autoreload 15824 19944 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:58:27,587 django.server 15824 23764 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:58:27,658 django.server 15824 23764 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 14:58:27,676 django.server 15824 9264 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 14:58:28,100 django.server 15824 9264 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 14:58:37,760 django.server 15824 23764 :: "GET /update_profile/8 HTTP/1.1" 200 15203
+[INFO] 2025-09-04 14:58:42,697 django.server 15824 23764 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 14:58:42,744 django.server 15824 23764 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 14:58:59,069 django.utils.autoreload 15824 19944 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:58:59,569 django.utils.autoreload 19928 15288 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:02,822 django.utils.autoreload 19928 15288 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:03,296 django.utils.autoreload 23120 24184 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:05,510 django.utils.autoreload 23120 24184 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:06,076 django.utils.autoreload 15044 23864 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:07,296 django.utils.autoreload 15044 23864 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:07,772 django.utils.autoreload 25736 7368 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:12,040 django.utils.autoreload 25736 7368 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:12,542 django.utils.autoreload 19368 11500 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:13,747 django.utils.autoreload 19368 11500 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:14,191 django.utils.autoreload 24712 13164 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:18,484 django.utils.autoreload 24712 13164 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:18,923 django.utils.autoreload 27208 25932 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:20,151 django.utils.autoreload 27208 25932 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:20,606 django.utils.autoreload 22452 5860 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:27,798 django.utils.autoreload 22452 5860 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:28,250 django.utils.autoreload 6824 27228 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:31,400 django.utils.autoreload 6824 27228 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:31,876 django.utils.autoreload 10284 25820 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:36,054 django.utils.autoreload 10284 25820 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:36,547 django.utils.autoreload 18872 14628 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 14:59:39,669 django.utils.autoreload 18872 14628 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 14:59:40,178 django.utils.autoreload 13836 1256 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:02:49,945 django.server 13836 1304 :: "GET / HTTP/1.1" 200 8684
+[INFO] 2025-09-04 15:02:50,050 django.server 13836 1304 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 15:02:50,051 django.server 13836 27108 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 15:02:50,465 django.server 13836 27108 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:03:13,283 django.utils.autoreload 13836 1256 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:03:13,819 django.utils.autoreload 17652 23200 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:04:36,834 django.utils.autoreload 17652 23200 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:04:37,349 django.utils.autoreload 23700 24968 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:04:41,634 django.utils.autoreload 23700 24968 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:04:42,139 django.utils.autoreload 23840 23804 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:04:47,415 django.utils.autoreload 23840 23804 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:04:47,925 django.utils.autoreload 25912 23980 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:04:49,068 django.utils.autoreload 25912 23980 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:04:49,559 django.utils.autoreload 6428 26724 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:04:54,348 django.server 6428 20688 :: "GET / HTTP/1.1" 200 6360
+[INFO] 2025-09-04 15:04:54,422 django.server 6428 20688 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 15:04:54,433 django.server 6428 22048 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 15:04:54,901 django.server 6428 22048 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:04:57,555 django.server 6428 20688 :: "GET /update_profile/8 HTTP/1.1" 200 15203
+[INFO] 2025-09-04 15:05:04,459 django.server 6428 20688 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:05:04,502 django.server 6428 20688 :: "GET / HTTP/1.1" 200 6840
+[INFO] 2025-09-04 15:36:57,866 django.utils.autoreload 19156 25728 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:38:25,316 django.utils.autoreload 19156 25728 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:38:25,846 django.utils.autoreload 24132 26656 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:38:29,032 django.utils.autoreload 24132 26656 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:38:29,549 django.utils.autoreload 19636 15900 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:38:36,766 django.utils.autoreload 19636 15900 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:38:37,280 django.utils.autoreload 22436 2920 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:38:49,927 django.server 22436 16552 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:38:50,053 django.server 22436 26316 :: "GET /log_in/ HTTP/1.1" 200 6555
+[INFO] 2025-09-04 15:38:50,185 django.server 22436 26316 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 15:38:50,188 django.server 22436 24292 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 15:38:50,637 django.server 22436 24292 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[ERROR] 2025-09-04 15:38:58,835 django.server 22436 26316 :: "GET /profile_create/ HTTP/1.1" 500 194012
+[ERROR] 2025-09-04 15:39:34,493 django.server 22436 23324 :: "GET /profile_create/ HTTP/1.1" 500 211092
+[WARNING] 2025-09-04 15:39:34,557 django.server 22436 23324 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:39:51,096 django.server 22436 9984 :: "GET /profile_create/ HTTP/1.1" 200 12846
+[INFO] 2025-09-04 15:39:51,115 django.server 22436 9984 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 15:39:51,123 django.server 22436 9984 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 15:39:51,550 django.server 22436 9984 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:40:23,725 django.server 22436 9984 :: "POST /profile_create/ HTTP/1.1" 200 13051
+[INFO] 2025-09-04 15:40:51,034 django.server 22436 9984 :: "POST /profile_create/ HTTP/1.1" 200 6707
+[INFO] 2025-09-04 15:41:20,905 django.server 22436 9984 :: "POST /profile_create/ HTTP/1.1" 200 6707
+[INFO] 2025-09-04 15:42:15,171 django.server 22436 9984 :: "POST /profile_create/ HTTP/1.1" 200 6707
+[INFO] 2025-09-04 15:43:16,545 django.server 22436 9984 :: "GET / HTTP/1.1" 200 5312
+[INFO] 2025-09-04 15:43:21,594 django.server 22436 9984 :: "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:43:21,739 django.server 22436 9984 :: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+[INFO] 2025-09-04 15:43:21,778 django.server 22436 9984 :: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,781 django.server 22436 2876 :: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,782 django.server 22436 24808 :: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,793 django.server 22436 24808 :: "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,795 django.server 22436 9984 :: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,795 django.server 22436 2876 :: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:21,808 django.server 22436 24808 :: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:30,103 django.server 22436 9984 :: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:43:30,226 django.server 22436 9984 :: "GET /admin/ HTTP/1.1" 200 11008
+[INFO] 2025-09-04 15:43:30,253 django.server 22436 2876 :: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:30,286 django.server 22436 2876 :: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2025-09-04 15:43:30,287 django.server 22436 24808 :: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2025-09-04 15:43:37,965 django.server 22436 9984 :: "GET /admin/event_app/venuetype/ HTTP/1.1" 200 10544
+[INFO] 2025-09-04 15:43:38,000 django.server 22436 2876 :: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,009 django.server 22436 9984 :: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,011 django.server 22436 24808 :: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,015 django.server 22436 20124 :: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,015 django.server 22436 24808 :: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,016 django.server 22436 23624 :: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,016 django.server 22436 25076 :: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,017 django.server 22436 9984 :: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,019 django.server 22436 20124 :: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,020 django.server 22436 24808 :: "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:38,113 django.server 22436 2876 :: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-09-04 15:43:38,143 django.server 22436 2876 :: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[INFO] 2025-09-04 15:43:39,880 django.server 22436 9984 :: "GET /admin/event_app/venuetype/add/ HTTP/1.1" 200 11313
+[INFO] 2025-09-04 15:43:39,935 django.server 22436 2876 :: "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+[INFO] 2025-09-04 15:43:39,951 django.server 22436 23624 :: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:39,951 django.server 22436 2876 :: "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:39,967 django.server 22436 24808 :: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-09-04 15:43:40,022 django.server 22436 2876 :: "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2025-09-04 15:43:47,956 django.server 22436 9984 :: "POST /admin/event_app/venuetype/add/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:43:48,035 django.server 22436 9984 :: "GET /admin/event_app/venuetype/ HTTP/1.1" 200 12056
+[INFO] 2025-09-04 15:43:48,124 django.server 22436 2876 :: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[INFO] 2025-09-04 15:43:48,211 django.server 22436 2876 :: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[WARNING] 2025-09-04 15:43:53,611 django.security.csrf 22436 22924 :: Forbidden (CSRF token from POST incorrect.): /profile_create/
+[WARNING] 2025-09-04 15:43:53,612 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 403 2503
+[WARNING] 2025-09-04 15:43:53,678 django.server 22436 22924 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:43:57,409 django.server 22436 22924 :: "GET /profile_create/ HTTP/1.1" 200 13416
+[INFO] 2025-09-04 15:44:00,597 django.server 22436 22924 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:44:00,606 django.server 22436 22924 :: "GET /log_in/ HTTP/1.1" 200 6555
+[INFO] 2025-09-04 15:44:07,382 django.server 22436 22924 :: "GET /profile_create/ HTTP/1.1" 200 12846
+[ERROR] 2025-09-04 15:44:26,771 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 500 109565
+[INFO] 2025-09-04 15:44:33,041 django.server 22436 22924 :: "GET /profile_create/ HTTP/1.1" 200 12846
+[INFO] 2025-09-04 15:44:47,329 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 6749
+[INFO] 2025-09-04 15:45:11,390 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 7008
+[INFO] 2025-09-04 15:45:30,608 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 7016
+[INFO] 2025-09-04 15:45:49,068 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 7014
+[INFO] 2025-09-04 15:47:40,909 django.server 22436 22924 :: "GET /registration/ HTTP/1.1" 200 7930
+[INFO] 2025-09-04 15:48:08,484 django.server 22436 22924 :: "POST /registration/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:48:08,555 django.server 22436 22924 :: "GET /profile_create/ HTTP/1.1" 200 13903
+[INFO] 2025-09-04 15:48:26,371 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 7806
+[INFO] 2025-09-04 15:49:19,561 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 8099
+[INFO] 2025-09-04 15:50:52,891 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 8099
+[INFO] 2025-09-04 15:51:06,133 django.server 22436 22924 :: "POST /profile_create/ HTTP/1.1" 200 8100
+[INFO] 2025-09-04 15:51:29,741 django.utils.autoreload 22436 2920 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:51:30,459 django.utils.autoreload 17960 26148 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:51:32,743 django.utils.autoreload 17960 26148 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:51:33,235 django.utils.autoreload 25528 21388 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:51:36,484 django.utils.autoreload 25528 21388 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:51:37,164 django.utils.autoreload 25180 7444 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 15:51:48,164 django.server 25180 2448 :: "GET /profile_create/ HTTP/1.1" 200 13903
+[INFO] 2025-09-04 15:51:50,091 django.server 25180 2448 :: "POST /profile_create/ HTTP/1.1" 200 7675
+[ERROR] 2025-09-04 15:52:11,917 django.server 25180 2448 :: "POST /profile_create/ HTTP/1.1" 500 100333
+[INFO] 2025-09-04 15:56:13,940 django.utils.autoreload 25180 7444 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 15:56:14,541 django.utils.autoreload 24068 11380 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-04 15:56:19,403 django.server 24068 24880 :: "POST /profile_create/ HTTP/1.1" 500 178940
+[WARNING] 2025-09-04 15:56:19,487 django.server 24068 24880 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 15:57:05,837 django.server 24068 24880 :: "GET /profile_create/ HTTP/1.1" 200 13903
+[INFO] 2025-09-04 15:57:09,088 django.server 24068 24880 :: "POST /profile_create/ HTTP/1.1" 200 7675
+[ERROR] 2025-09-04 15:57:26,522 django.server 24068 24880 :: "POST /profile_create/ HTTP/1.1" 500 178675
+[INFO] 2025-09-04 15:57:33,841 django.server 24068 24880 :: "GET /profile_create/ HTTP/1.1" 200 13903
+[INFO] 2025-09-04 15:58:23,873 django.server 24068 24880 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 15:58:23,881 django.server 24068 24880 :: "GET /log_in/ HTTP/1.1" 200 6555
+[INFO] 2025-09-04 15:58:39,888 django.utils.autoreload 24068 11380 :: F:\2082.04.05\Event Booking System\project\event_app\forms.py changed, reloading.
+[INFO] 2025-09-04 15:58:40,504 django.utils.autoreload 27200 3336 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:25:13,004 django.utils.autoreload 13932 23572 :: Watching for file changes with StatReloader
+[WARNING] 2025-09-04 16:25:22,592 django.server 13932 18704 :: "GET /venue/ HTTP/1.1" 404 4476
+[INFO] 2025-09-04 16:25:39,224 django.server 13932 18704 :: "GET /venue_create/ HTTP/1.1" 200 7472
+[INFO] 2025-09-04 16:26:54,693 django.server 13932 8824 :: "GET /venue_create/ HTTP/1.1" 200 7467
+[INFO] 2025-09-04 16:26:54,785 django.server 13932 8824 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 16:26:54,796 django.server 13932 22900 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 16:26:55,178 django.server 13932 22900 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 16:26:57,600 django.server 13932 8824 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-04 16:27:34,791 django.utils.autoreload 13932 23572 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:35,283 django.utils.autoreload 26680 24620 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:27:37,431 django.utils.autoreload 26680 24620 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:37,882 django.utils.autoreload 26196 20660 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:27:46,196 django.utils.autoreload 26196 20660 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:46,709 django.utils.autoreload 23376 25164 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:27:53,923 django.utils.autoreload 23376 25164 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:54,453 django.utils.autoreload 26096 16616 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:27:55,568 django.utils.autoreload 26096 16616 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:56,110 django.utils.autoreload 23104 24824 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:27:58,353 django.utils.autoreload 23104 24824 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:27:58,843 django.utils.autoreload 3408 7916 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:00,056 django.utils.autoreload 3408 7916 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:00,566 django.utils.autoreload 23792 24548 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:02,708 django.utils.autoreload 23792 24548 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:03,205 django.utils.autoreload 27312 19056 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:04,421 django.utils.autoreload 27312 19056 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:04,941 django.utils.autoreload 18024 17200 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:07,182 django.utils.autoreload 18024 17200 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:07,681 django.utils.autoreload 6868 25876 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:38,314 django.utils.autoreload 6868 25876 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:38,804 django.utils.autoreload 18148 7220 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:40,037 django.utils.autoreload 18148 7220 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:40,493 django.utils.autoreload 24724 24420 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:28:41,610 django.utils.autoreload 24724 24420 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:28:42,119 django.utils.autoreload 14856 23784 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:38:56,052 django.utils.autoreload 8928 3156 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:41:27,256 django.utils.autoreload 8928 3156 :: F:\2082.04.05\Event Booking System\project\event_app\urls.py changed, reloading.
+[INFO] 2025-09-04 16:41:27,831 django.utils.autoreload 25020 23272 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:42:25,698 django.server 25020 26972 :: "GET / HTTP/1.1" 200 5294
+[INFO] 2025-09-04 16:42:25,825 django.server 25020 26972 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 16:42:25,838 django.server 25020 21936 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 16:42:26,220 django.server 25020 21936 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 16:42:28,957 django.server 25020 26972 :: "GET /log_in/ HTTP/1.1" 200 6537
+[INFO] 2025-09-04 16:42:41,000 django.server 25020 26972 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 16:42:41,068 django.server 25020 26972 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 16:42:48,239 django.server 25020 26972 :: "GET /venue_create/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 16:42:48,284 django.server 25020 26972 :: "GET / HTTP/1.1" 200 6842
+[INFO] 2025-09-04 16:42:56,541 django.server 25020 26972 :: "GET /update_profile/8 HTTP/1.1" 200 14952
+[INFO] 2025-09-04 16:43:18,814 django.server 25020 23124 :: "GET /update_profile/8 HTTP/1.1" 200 15217
+[INFO] 2025-09-04 16:43:18,835 django.server 25020 23124 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 16:43:18,838 django.server 25020 23124 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 16:43:19,236 django.server 25020 23124 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 16:43:22,112 django.server 25020 23124 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 16:43:22,160 django.server 25020 23124 :: "GET / HTTP/1.1" 200 6854
+[ERROR] 2025-09-04 16:43:25,608 django.server 25020 23124 :: "GET /venue_create/ HTTP/1.1" 500 71372
+[INFO] 2025-09-04 16:47:13,321 django.utils.autoreload 25020 23272 :: F:\2082.04.05\Event Booking System\project\event_app\urls.py changed, reloading.
+[INFO] 2025-09-04 16:47:13,979 django.utils.autoreload 20080 24116 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:47:37,424 django.utils.autoreload 20080 24116 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:47:37,957 django.utils.autoreload 11888 9376 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:47:41,184 django.utils.autoreload 11888 9376 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:47:41,688 django.utils.autoreload 10452 6396 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:47:42,806 django.utils.autoreload 10452 6396 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:47:43,352 django.utils.autoreload 13012 23796 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:47:49,552 django.utils.autoreload 13012 23796 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:47:50,036 django.utils.autoreload 2832 26608 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:47:57,264 django.utils.autoreload 2832 26608 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:47:57,734 django.utils.autoreload 24272 4580 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:48:00,960 django.utils.autoreload 24272 4580 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:48:01,435 django.utils.autoreload 26604 22620 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:48:03,558 django.utils.autoreload 26604 22620 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:48:04,060 django.utils.autoreload 25944 4000 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:48:08,228 django.utils.autoreload 25944 4000 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:48:08,756 django.utils.autoreload 3052 10564 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:48:11,909 django.utils.autoreload 3052 10564 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:48:12,391 django.utils.autoreload 9616 4228 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:48:15,534 django.utils.autoreload 9616 4228 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 16:48:15,985 django.utils.autoreload 25792 25000 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:49:09,440 django.utils.autoreload 17180 24536 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:49:50,127 django.utils.autoreload 24468 5088 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:16,796 django.utils.autoreload 24468 5088 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:17,364 django.utils.autoreload 21884 3156 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:26,635 django.utils.autoreload 21884 3156 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:27,121 django.utils.autoreload 26056 7528 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:29,273 django.utils.autoreload 26056 7528 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:29,769 django.utils.autoreload 17184 17224 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:30,887 django.utils.autoreload 17184 17224 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:31,404 django.utils.autoreload 11888 9652 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:33,528 django.utils.autoreload 11888 9652 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:34,019 django.utils.autoreload 23928 20440 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:55:37,161 django.utils.autoreload 23928 20440 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:55:37,664 django.utils.autoreload 19464 18424 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:56:08,674 django.utils.autoreload 8928 23568 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:56:18,916 django.utils.autoreload 8928 23568 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:56:19,426 django.utils.autoreload 22056 4752 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:56:20,539 django.utils.autoreload 22056 4752 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:56:21,035 django.utils.autoreload 23244 26360 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:56:23,163 django.utils.autoreload 23244 26360 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:56:23,638 django.utils.autoreload 16584 2392 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 16:56:24,769 django.utils.autoreload 16584 2392 :: F:\2082.04.05\Event Booking System\project\event_app\decorators.py changed, reloading.
+[INFO] 2025-09-04 16:56:25,232 django.utils.autoreload 27228 15508 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:00:58,595 django.utils.autoreload 27228 15508 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:00:59,184 django.utils.autoreload 12384 23216 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:01,368 django.utils.autoreload 12384 23216 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:01,855 django.utils.autoreload 22380 24892 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:02,962 django.utils.autoreload 22380 24892 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:03,444 django.utils.autoreload 23276 25396 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:06,622 django.utils.autoreload 23276 25396 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:07,104 django.utils.autoreload 13200 23596 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:14,326 django.utils.autoreload 13200 23596 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:14,817 django.utils.autoreload 26544 20944 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:19,075 django.utils.autoreload 26544 20944 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:19,547 django.utils.autoreload 24128 4936 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:20,658 django.utils.autoreload 24128 4936 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:01:21,100 django.utils.autoreload 26412 25516 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:01:27,079 django.server 26412 22012 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 17:01:27,198 django.server 26412 22012 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:01:27,206 django.server 26412 7092 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:01:27,305 django.server 26412 7092 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 17:01:29,870 django.server 26412 22012 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 17:01:33,544 django.server 26412 2604 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 17:01:33,568 django.server 26412 2604 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:01:33,573 django.server 26412 9616 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:01:33,688 django.server 26412 9616 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[ERROR] 2025-09-04 17:01:36,149 django.server 26412 2604 :: "GET /venue_create/ HTTP/1.1" 500 71158
+[INFO] 2025-09-04 17:02:32,716 django.utils.autoreload 26412 25516 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:02:33,204 django.utils.autoreload 17768 23100 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:02:35,349 django.utils.autoreload 17768 23100 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:02:35,812 django.utils.autoreload 21112 23720 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:02:37,956 django.utils.autoreload 21112 23720 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:02:38,403 django.utils.autoreload 18460 12696 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:02:41,555 django.utils.autoreload 18460 12696 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:02:42,051 django.utils.autoreload 26868 22452 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:02:46,319 django.utils.autoreload 26868 22452 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:02:46,820 django.utils.autoreload 19920 24144 :: Watching for file changes with StatReloader
+[ERROR] 2025-09-04 17:02:57,262 django.server 19920 9204 :: "GET /venue_create/ HTTP/1.1" 500 72745
+[INFO] 2025-09-04 17:04:49,777 django.utils.autoreload 19920 24144 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:04:50,300 django.utils.autoreload 9440 26932 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:04:53,561 django.utils.autoreload 9440 26932 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:04:54,065 django.utils.autoreload 26120 17540 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:41,389 django.utils.autoreload 26120 17540 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:42,002 django.utils.autoreload 14588 15480 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:45,171 django.utils.autoreload 14588 15480 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:45,681 django.utils.autoreload 25632 22544 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:49,860 django.utils.autoreload 25632 22544 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:50,373 django.utils.autoreload 15604 19472 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:51,550 django.utils.autoreload 15604 19472 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:52,029 django.utils.autoreload 11240 14924 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:53,148 django.utils.autoreload 11240 14924 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:53,697 django.utils.autoreload 26988 25888 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:54,803 django.utils.autoreload 26988 25888 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:55,285 django.utils.autoreload 7216 12600 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:05:57,439 django.utils.autoreload 7216 12600 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:05:57,968 django.utils.autoreload 26628 21976 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:06:00,130 django.utils.autoreload 26628 21976 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:06:00,617 django.utils.autoreload 24020 1700 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:06:03,767 django.utils.autoreload 24020 1700 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:06:04,242 django.utils.autoreload 1904 13020 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:06:16,546 django.utils.autoreload 1904 13020 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:06:17,063 django.utils.autoreload 19592 27116 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:06:23,249 django.utils.autoreload 19592 27116 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:06:23,740 django.utils.autoreload 9372 23772 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:06:31,078 django.server 9372 5088 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 17:06:31,186 django.server 9372 5088 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:06:31,193 django.server 9372 11664 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:06:31,599 django.server 9372 11664 :: "GET /favicon.ico HTTP/1.1" 404 4491
+[INFO] 2025-09-04 17:06:34,253 django.server 9372 5088 :: "GET /venue_create/ HTTP/1.1" 200 8538
+[INFO] 2025-09-04 17:06:41,221 django.server 9372 5088 :: "GET /update_profile/8 HTTP/1.1" 200 15225
+[INFO] 2025-09-04 17:06:44,014 django.server 9372 5088 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:06:44,061 django.server 9372 5088 :: "GET / HTTP/1.1" 200 6854
+[WARNING] 2025-09-04 17:06:47,240 django.server 9372 5088 :: "GET /venue_create/ HTTP/1.1" 403 135
+[WARNING] 2025-09-04 17:06:50,816 django.server 9372 5088 :: "GET /venue_create/ HTTP/1.1" 403 135
+[WARNING] 2025-09-04 17:06:54,138 django.server 9372 5088 :: "GET /venue_create/ HTTP/1.1" 403 135
+[INFO] 2025-09-04 17:06:58,141 django.server 9372 5088 :: "GET /update_profile/8 HTTP/1.1" 200 15217
+[INFO] 2025-09-04 17:07:00,422 django.server 9372 5088 :: "POST /update_profile/8 HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:07:00,466 django.server 9372 5088 :: "GET / HTTP/1.1" 200 6854
+[INFO] 2025-09-04 17:07:05,203 django.server 9372 5088 :: "GET /venue_create/ HTTP/1.1" 200 8538
+[INFO] 2025-09-04 17:07:25,861 django.utils.autoreload 9372 23772 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:07:26,351 django.utils.autoreload 12604 1016 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:07:28,500 django.utils.autoreload 12604 1016 :: F:\2082.04.05\Event Booking System\project\event_app\mixins.py changed, reloading.
+[INFO] 2025-09-04 17:07:28,940 django.utils.autoreload 21892 18120 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:09:47,965 django.server 21892 16528 :: "GET /venue_create/ HTTP/1.1" 200 8538
+[INFO] 2025-09-04 17:10:44,753 django.server 21892 16528 :: "POST /venue_create/ HTTP/1.1" 200 8933
+[INFO] 2025-09-04 17:10:58,695 django.server 21892 16528 :: "POST /venue_create/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:10:58,741 django.server 21892 16528 :: "GET / HTTP/1.1" 200 6374
+[INFO] 2025-09-04 17:11:41,174 django.utils.autoreload 21892 18120 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:11:41,898 django.utils.autoreload 25604 23676 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:11:43,035 django.utils.autoreload 25604 23676 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:11:43,555 django.utils.autoreload 9652 25944 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:11:53,925 django.utils.autoreload 9652 25944 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:11:54,419 django.utils.autoreload 26384 10968 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:12:00,700 django.utils.autoreload 26384 10968 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:12:01,159 django.utils.autoreload 22240 20668 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:12:13,518 django.utils.autoreload 22240 20668 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:12:13,978 django.utils.autoreload 11576 24112 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:12:19,259 django.utils.autoreload 11576 24112 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:12:19,716 django.utils.autoreload 25104 24020 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:12:38,158 django.utils.autoreload 25104 24020 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:12:38,621 django.utils.autoreload 12996 8832 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:12:40,840 django.utils.autoreload 12996 8832 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:12:41,329 django.utils.autoreload 25940 23224 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:34:59,128 django.utils.autoreload 26400 25400 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:02,425 django.server 26400 13048 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:35:02,643 django.server 26400 23672 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:35:02,799 django.server 26400 23672 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:35:02,815 django.server 26400 17760 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:35:03,443 django.server 26400 17760 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[ERROR] 2025-09-04 17:35:09,564 django.server 26400 23672 :: "GET /venue/ HTTP/1.1" 500 87159
+[INFO] 2025-09-04 17:35:30,431 django.utils.autoreload 26400 25400 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:35:31,178 django.utils.autoreload 21924 23716 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:33,326 django.utils.autoreload 21924 23716 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:35:33,842 django.utils.autoreload 24432 11524 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:37,102 django.utils.autoreload 24432 11524 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:35:37,697 django.utils.autoreload 22992 13960 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:38,956 django.utils.autoreload 22992 13960 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:35:39,452 django.utils.autoreload 18812 17100 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:42,683 django.utils.autoreload 18812 17100 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:35:43,195 django.utils.autoreload 23668 16780 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:35:47,225 django.server 23668 23840 :: "GET /venue/ HTTP/1.1" 200 6472
+[INFO] 2025-09-04 17:35:47,315 django.server 23668 23840 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:35:47,328 django.server 23668 22140 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:35:47,756 django.server 23668 22140 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[INFO] 2025-09-04 17:35:49,379 django.server 23668 23840 :: "GET /update_venue/1 HTTP/1.1" 200 8654
+[ERROR] 2025-09-04 17:36:09,383 django.server 23668 23840 :: "POST /update_venue/1 HTTP/1.1" 500 124091
+[INFO] 2025-09-04 17:36:25,531 django.utils.autoreload 23668 16780 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:36:26,070 django.utils.autoreload 25544 9376 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:36:30,338 django.utils.autoreload 25544 9376 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:36:30,936 django.utils.autoreload 10064 22424 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:36:32,219 django.utils.autoreload 10064 22424 :: F:\2082.04.05\Event Booking System\project\event_app\views.py changed, reloading.
+[INFO] 2025-09-04 17:36:32,756 django.utils.autoreload 19200 7444 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:36:35,166 django.server 19200 25932 :: "POST /update_venue/1 HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:36:35,228 django.server 19200 18092 :: "GET /venue/ HTTP/1.1" 200 6477
+[INFO] 2025-09-04 17:36:35,321 django.server 19200 18092 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:36:35,333 django.server 19200 20856 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:36:35,631 django.server 19200 20856 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[INFO] 2025-09-04 17:36:37,713 django.server 19200 18092 :: "GET /update_venue/1 HTTP/1.1" 200 8659
+[INFO] 2025-09-04 17:36:43,578 django.server 19200 18092 :: "POST /update_venue/1 HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:36:43,731 django.server 19200 18092 :: "GET /venue/ HTTP/1.1" 200 6485
+[INFO] 2025-09-04 17:36:58,395 django.server 19200 18092 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:37:02,056 django.server 19200 18092 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:37:02,066 django.server 19200 18092 :: "GET /log_in/ HTTP/1.1" 200 6541
+[INFO] 2025-09-04 17:37:05,449 django.server 19200 18092 :: "GET /venue/ HTTP/1.1" 200 5414
+[INFO] 2025-09-04 17:37:08,202 django.server 19200 16584 :: "GET /venue/ HTTP/1.1" 200 5414
+[INFO] 2025-09-04 17:37:08,224 django.server 19200 16584 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:37:08,228 django.server 19200 16584 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:37:08,586 django.server 19200 16584 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[INFO] 2025-09-04 17:37:09,868 django.server 19200 16584 :: "GET / HTTP/1.1" 200 5298
+[INFO] 2025-09-04 17:37:13,239 django.server 19200 16584 :: "GET /venue/ HTTP/1.1" 200 5414
+[INFO] 2025-09-04 17:37:14,392 django.server 19200 16584 :: "GET / HTTP/1.1" 200 5298
+[INFO] 2025-09-04 17:37:19,167 django.server 19200 16584 :: "GET /log_in/ HTTP/1.1" 200 6541
+[INFO] 2025-09-04 17:37:27,481 django.server 19200 16584 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:37:27,535 django.server 19200 16584 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:37:29,435 django.server 19200 16584 :: "GET /venue/ HTTP/1.1" 200 5984
+[ERROR] 2025-09-04 17:37:31,330 django.server 19200 16584 :: "GET /update_venue/1 HTTP/1.1" 500 90196
+[INFO] 2025-09-04 17:37:35,233 django.server 19200 16584 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:38:04,833 django.server 19200 16584 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:38:04,841 django.server 19200 16584 :: "GET /log_in/ HTTP/1.1" 200 6541
+[INFO] 2025-09-04 17:38:14,630 django.server 19200 16584 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:38:14,672 django.server 19200 16584 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:38:41,712 django.server 19200 16584 :: "GET /venue_create/ HTTP/1.1" 200 8542
+[INFO] 2025-09-04 17:39:09,906 django.server 19200 16584 :: "POST /venue_create/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:39:09,950 django.server 19200 16584 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:39:11,557 django.server 19200 16584 :: "GET /venue/ HTTP/1.1" 200 6549
+[INFO] 2025-09-04 17:39:18,057 django.server 19200 16584 :: "GET /update_venue/2 HTTP/1.1" 200 8618
+[INFO] 2025-09-04 17:39:21,762 django.server 19200 16584 :: "GET /update_venue/1 HTTP/1.1" 200 8667
+[INFO] 2025-09-04 17:47:24,515 django.utils.autoreload 25576 15792 :: Watching for file changes with StatReloader
+[INFO] 2025-09-04 17:47:29,241 django.server 25576 408 :: "GET /venue/ HTTP/1.1" 200 6470
+[INFO] 2025-09-04 17:47:29,373 django.server 25576 408 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:47:29,375 django.server 25576 22900 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:47:29,806 django.server 25576 22900 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[INFO] 2025-09-04 17:47:31,838 django.server 25576 408 :: "GET /update_venue/2 HTTP/1.1" 200 8618
+[INFO] 2025-09-04 17:48:02,438 django.server 25576 408 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:48:02,447 django.server 25576 408 :: "GET /log_in/ HTTP/1.1" 200 6541
+[INFO] 2025-09-04 17:48:09,942 django.server 25576 408 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:48:09,990 django.server 25576 408 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:48:11,354 django.server 25576 408 :: "GET /venue/ HTTP/1.1" 200 5905
+[INFO] 2025-09-04 17:48:13,229 django.server 25576 408 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:48:31,854 django.server 25576 23468 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:48:31,877 django.server 25576 23468 :: "GET /static/css/styles.css HTTP/1.1" 200 566
+[INFO] 2025-09-04 17:48:31,881 django.server 25576 23468 :: "GET /static/js/scripts.js HTTP/1.1" 200 1053
+[WARNING] 2025-09-04 17:48:32,259 django.server 25576 23468 :: "GET /favicon.ico HTTP/1.1" 404 5030
+[INFO] 2025-09-04 17:48:33,005 django.server 25576 23468 :: "GET /venue/ HTTP/1.1" 200 5905
+[INFO] 2025-09-04 17:48:33,922 django.server 25576 23468 :: "GET / HTTP/1.1" 200 5877
+[INFO] 2025-09-04 17:49:08,134 django.server 25576 23468 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:49:08,144 django.server 25576 23468 :: "GET /log_in/ HTTP/1.1" 200 6541
+[INFO] 2025-09-04 17:49:19,244 django.server 25576 23468 :: "POST /log_in/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:49:19,290 django.server 25576 23468 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:49:20,963 django.server 25576 23468 :: "GET /venue/ HTTP/1.1" 200 6485
+[INFO] 2025-09-04 17:49:25,254 django.server 25576 23468 :: "GET /update_venue/1 HTTP/1.1" 200 8667
+[INFO] 2025-09-04 17:49:33,163 django.server 25576 23468 :: "POST /update_venue/1 HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:49:33,221 django.server 25576 23468 :: "GET /venue/ HTTP/1.1" 200 6477
+[INFO] 2025-09-04 17:49:35,021 django.server 25576 23468 :: "GET / HTTP/1.1" 200 6378
+[INFO] 2025-09-04 17:49:37,217 django.server 25576 23468 :: "POST /log_out/ HTTP/1.1" 302 0
+[INFO] 2025-09-04 17:49:37,225 django.server 25576 23468 :: "GET /log_in/ HTTP/1.1" 200 6541

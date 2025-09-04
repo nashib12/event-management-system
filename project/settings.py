@@ -36,6 +36,10 @@ INSTALLED_APPS = [
 EXTERNAL_APPS = [
     'event_app',
     'phonenumber_field',
+    'formtools',
+    'crispy_forms',
+    'crispy_bootstrap5',
+    
 ]
 
 INSTALLED_APPS.extend(EXTERNAL_APPS)
@@ -108,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kathmandu' #change it to local timezone
+TIME_ZONE = 'Asia/Kathmandu' #changes the timezone to local timezone
 
 USE_I18N = True
 
@@ -205,3 +209,14 @@ LOGGING = {
         },
     },
 }
+
+# Login and Logout redirection
+
+LOGIN_URL = "log-in"
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL="log-in"
+
+# Crispy Form
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"

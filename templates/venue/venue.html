@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Venue
+{% endblock title %}
+
+{% block content %}
+  <div class="container">
+    <h1>Venue List</h1>
+    {% for venue in venues %}
+      <a href="{% url 'update-venue' venue.id %}" class="fs-1">{{venue.venue_name}}</a>
+    {% endfor %}
+  </div>
+{% endblock content %}

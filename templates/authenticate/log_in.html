@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}
+  LogIn
+{% endblock title %}
+
+{% block content %}
+  <div class="container mt-4 mb-3">
+    <div class="custom-box">
+        <h1 class="text-center fw-bold mb-3">Welcome Back</h1>
+        {% if form.errors %}
+          <div class="alert alert-danger">
+              {{ form.errors }}
+          </div>
+        {% endif %}
+        <form action="{% url 'log-in' %}" method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="username" class="form-label fs-5 fw-bold">Username:</label>
+                {{form.username}}
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label fs-5 fw-bold">Password:</label>
+                {{form.password}}
+            </div>
+            <div class="mb-3 d-flex justify-content-center">
+                <button type="submit" class="btn btn-lg btn-dark text-light fs-4 fw-bold rounded-3">Login</button>
+            </div>
+        </form>
+        <div class="mb-3 d-flex justify-content-center">
+            <a href="{% url 'registration' %}" ><button type="submit" class="btn btn-lg btn-dark text-light fs-4 fw-bold rounded-3">Don't Have a Account ? Register</button></a>
+        </div>
+    </div>
+  </div>
+{% endblock content %}
