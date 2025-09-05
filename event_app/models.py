@@ -50,7 +50,25 @@ class Venue(models.Model):
         db_table = 'Venues'
         managed = True
 
-class VenueStaff(models.Model):
+# class VenueStaff(models.Model):
+#     venue = models.ForeignKey(Venue, on_delete=models.CASCADE, related_name="venue_staffs")
+#     first_name = models.CharField(max_length=100)
+#     last_name = models.CharField(max_length=100)
+#     email = models.EmailField(unique=True)
+#     is_venue_staff = models.BooleanField(default=True)
+#     is_active = models.BooleanField(default=True)
+#     created_at = models.DateTimeField(auto_now_add=True)
+    
+#     def __str__(self):
+#         return f"{self.first_name} {self.last_name}"
+    
+#     class Meta:
+#         db_table = 'Venue Staffs'
+#         managed = True
+
+
+class VenueStaffMember(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="user", primary_key=True)
     venue = models.ForeignKey(Venue, on_delete=models.CASCADE, related_name="venue_staffs")
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
@@ -63,7 +81,7 @@ class VenueStaff(models.Model):
         return f"{self.first_name} {self.last_name}"
     
     class Meta:
-        db_table = 'Venue Staffs'
+        db_table = 'Venue Staff Members'
         managed = True
     
 class EventType(models.Model):
@@ -84,7 +102,8 @@ class Event(models.Model):
     event_year = models.IntegerField()
     event_time = models.TimeField()
     event_poster = models.ImageField(upload_to="event_poster/")
-    event_manager = models.ForeignKey(VenueStaff, on_delete=models.DO_NOTHING, related_name="managers")
+    event_manager = models.ForeignKey(VenueStaffMember, on_delete=models.DO_NOTHING, related_name="managers")
+    event_type = models.ForeignKey(EventType, on_delete=models.DO_NOTHING, related_name="event_type", default="")
     event_description = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

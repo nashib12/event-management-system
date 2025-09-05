@@ -8,7 +8,8 @@
   <div class="container">
     <h1>Venue List</h1>
     {% for venue in venues %}
-      <a href="{% url 'update-venue' venue.id %}" class="fs-1">{{venue.venue_name}}</a>
+      <a href="{% url 'update-venue' venue.id %}" class="fs-1 text-decoration-none">{{venue.venue_name}}</a>
+      <a href="{% url 'delete-venue' venue.id %}" class="text-decoration-none"><button class="btn tbn-md btn-danger rounded-3 fs-3">Delete</button></a>
     {% endfor %}
   </div>
 {% endblock content %}

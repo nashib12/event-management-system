@@ -13,7 +13,7 @@
                 <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="{% url 'view-venue' %}">Venue</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="#">Notification</a>
+                <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="{% url 'events' %}">Events</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-light {% if request.path == '/about/' %} selected_link  {% endif %}" href="#">Videos</a>
@@ -36,11 +36,11 @@
                         <li><a class="dropdown-item" href="#"><i class="fa-regular fa-id-card me-2"></i>&nbsp;View Profile</a></li>
                         <li><a class="dropdown-item" href="{% url 'update-profile' user.id %}"><i class="fa-regular fa-id-card me-2"></i>&nbsp;Update Profile</a></li>
                         <li><a class="dropdown-item" href="{% url 'create-venue' %}"><i class="fa-solid fa-blog me-2"></i>&nbsp;Create a venue</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image me-2"></i>&nbsp;Create album</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-image me-2"></i>&nbsp;Add image</a></li>
+                        <li><a class="dropdown-item" href="{% url 'create-venue-staff' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;Create Staff Account</a></li>
+                        <li><a class="dropdown-item" href="{% url 'create-event' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;Add Event</a></li>
                         <li><hr class="dropdown-divider"></li>  
                     {% endif %}
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-key me-2"></i>&nbsp;Change Password</a></li>                
+                    <li><a class="dropdown-item" href="{% url 'change-password' %}"><i class="fa-solid fa-key me-2"></i>&nbsp;Change Password</a></li>                
                     <li><form action="{% url 'log-out' %}" method="post">
                         {% csrf_token %}
                         <button class="dropdown-item btn-link text-decoration-none" type="submit"><i class="fa-solid fa-right-from-bracket me-2"></i>&nbsp;Logout</button>

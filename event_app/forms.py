@@ -3,11 +3,11 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from datetime import datetime
 from calendar import month_name
-from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 # from phonenumber_field.formfields import PhoneNumberField
 # from phonenumber_field.widgets import PhoneNumberPrefixWidget
 
-from .validators import password_validate
+# from .validators import password_validate
 from .models import Profile, Venue, Event
 
 class CustomUserCreationForm(UserCreationForm):
@@ -91,26 +91,30 @@ class VenueForm(forms.ModelForm):
 class EventForm(forms.ModelForm):
     class Meta:
         model = Event
-        fields =  ['event_name', 'event_year', 'event_month', 'event_day', 'event_time', 'event_poster', 'event_manager', 'event_description']        
+        fields =  ['event_name', 'event_year', 'event_month', 'event_day', 'event_time', 'event_poster', 'event_type', 'event_manager', 'event_description']        
 
         labels = {
+            # 'venue' : '',
             'event_name' : '', 
             'event_year' : '', 
             'event_month' : '', 
             'event_day' : '', 
             'event_time' : '', 
             'event_poster' : '', 
+            'event_type' : '',
             'event_manager' : '', 
             'event_description' : '',
         }
         
         widgets = {
+            # 'venue' : forms.Select(attrs={'class':'form-control fs-4','id':'venue'}), 
             'event_name' : forms.TextInput(attrs={'class':'form-control fs-4','id':'name'}), 
-            'event_year' : forms.Select(choices=[('', 'Year')] + [(y, y) for y in range(1900, datetime.now().year + 1)], attrs={'class':'form-control fs-4','id':'year'}),
+            'event_year' : forms.Select(choices=[('', 'Year')] + [(y, y) for y in range(datetime.now().year , datetime.now().year + 11)], attrs={'class':'form-control fs-4','id':'year'}),
             'event_month' : forms.Select(choices=[('', 'Month')] + [(m, month_name[m]) for m in range(1, 13)], attrs={'class':'form-control fs-4','id':'month'}),
             'event_day' : forms.Select(choices=[('', 'Day')] + [(d, d) for d in range(1, 32)], attrs={'class':'form-control fs-4','id':'day'}), 
-            'event_time' : forms.TimeInput(attrs={'class':'form-control fs-4','id':'etime'}), 
+            'event_time' : forms.TimeInput(attrs={'class':'form-control fs-4','id':'etime', 'type':'time'}), 
             'event_poster' : forms.FileInput(attrs={'class':'form-control fs-4','id':'poster'}), 
+            'event_type' : forms.Select(attrs={'class':'form-control fs-4','id':'etype'}), 
             'event_manager' : forms.Select(attrs={'class':'form-control fs-4','id':'manager'}), 
             'event_description' : forms.Textarea(attrs={'class':'form-control fs-4','id':'description'}),
         }
@@ -118,3 +122,19 @@ class EventForm(forms.ModelForm):
 class LoginForm(AuthenticationForm):
     username = forms.CharField(label="", widget=forms.TextInput(attrs={'class' : 'form-control fs-4', 'id' : 'username'}))
     password = forms.CharField(label="", widget=forms.PasswordInput(attrs={'class' : 'form-control fs-4', 'id' : 'password'}))
+    
+class CustomPasswordChangeForm(PasswordChangeForm):
+    def __init__(self, *args, **kwargs):
+        super(CustomPasswordChangeForm, self).__init__(*args, **kwargs)
+        
+        self.fields['old_password'].label = ''
+        self.fields['old_password'].widget.attrs['class'] = 'form-control fs-4'
+        self.fields['old_password'].widget.attrs['id'] = 'old_password'
+        
+        self.fields['new_password1'].label = ''
+        self.fields['new_password1'].widget.attrs['class'] = 'form-control fs-4'
+        self.fields['new_password1'].widget.attrs['id'] = 'password1'
+        
+        self.fields['new_password2'].label = ''
+        self.fields['new_password2'].widget.attrs['class'] = 'form-control fs-4'
+        self.fields['new_password2'].widget.attrs['id'] = 'password2'

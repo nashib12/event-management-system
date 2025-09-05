@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Profile, Venue, VenueStaff, VenueType, Event, EventType
+from .models import Profile, Venue, VenueStaffMember, VenueType, Event, EventType
 # Register your models here.
 @admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
@@ -17,7 +17,7 @@ class VenueAdmin(admin.ModelAdmin):
     list_filters = ('venue_type', 'registered_at')
     fields = ['owner', 'venue_name', 'venue_type', 'is_approved']
     
-@admin.register(VenueStaff)
+@admin.register(VenueStaffMember)
 class VenueStaffAdmin(admin.ModelAdmin):
     list_display = ('venue', 'first_name', 'last_name', 'is_active')
     ordering = ('-created_at',)

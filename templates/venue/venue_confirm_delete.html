@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+  Confirm Delete
+{% endblock title %}
+
+{% block content %}
+  <div class="container mt-5">
+    <div class=" d-flex flex-column align-items-center">
+        <h2 class="fs-2 fw-bold mb-3 text-center">Do you want to delete "{{object}} ?</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input type="submit" value="Confirm Delete" class="btn btn-lg btn-danger rounded-3 fs-4 fw-bold" >
+        </form>
+    </div>
+  </div>
+{% endblock content %}
