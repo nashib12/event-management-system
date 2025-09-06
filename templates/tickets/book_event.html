@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Book Event
+{% endblock title %}
+
+{% block content %}
+  <div class="container">
+    <div class="custom-box">
+        <h2 class="text-center fw-bold mb-3">Book The Event</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="ticket" class="form-label fs-5">Total No. of Tickets</label>
+                {{ form.booked_ticekts }}
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-lg btn-dark rounded-3 fs-4" type="submit">Book Event</button>
+            </div>
+        </form>
+    </div>
+  </div>
+{% endblock content %}

@@ -4,11 +4,8 @@ from django.contrib.auth.models import User
 from datetime import datetime
 from calendar import month_name
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
-# from phonenumber_field.formfields import PhoneNumberField
-# from phonenumber_field.widgets import PhoneNumberPrefixWidget
 
-# from .validators import password_validate
-from .models import Profile, Venue, Event
+from .models import Profile, Venue, Event, TotalTickets, BookEvent
 
 class CustomUserCreationForm(UserCreationForm):
     first_name = forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control fs-4','id':'fname'}))
@@ -36,8 +33,7 @@ class CustomUserCreationForm(UserCreationForm):
         self.fields['password2'].widget.attrs['class'] = 'form-control fs-4'
         self.fields['password2'].widget.attrs['placeholder'] = ''
         self.fields['password2'].widget.attrs['id'] = 'password2'
-        
-    
+          
 class ProfileForm(forms.ModelForm):
     # contact = forms.CharField(widgets = PhoneNumberPrefixWidget(attrs={'id': 'phone','class': 'form-control'}),)
         
@@ -138,3 +134,36 @@ class CustomPasswordChangeForm(PasswordChangeForm):
         self.fields['new_password2'].label = ''
         self.fields['new_password2'].widget.attrs['class'] = 'form-control fs-4'
         self.fields['new_password2'].widget.attrs['id'] = 'password2'
+        
+class TicketForm(forms.ModelForm):
+    class Meta:
+        model = TotalTickets
+        fields = ('total_tickets', )
+        
+        labels = {
+            'total_tickets' : '',
+        }
+        
+        widgets = {
+            'total_tickets' : forms.NumberInput(attrs={'class' : 'form-control fs-4', 'id' : 'ticket'}),
+        }
+        
+        def clean_data(self):
+            data = self.cleaned_data["total_tickets"]
+            if int(data) <= 0:
+                raise ValueError({"error" : "No of tickets should not be less than 0."})
+            return data
+
+class BookingForm(forms.ModelForm):
+    class Meta:
+        model = BookEvent
+        fields = ('booked_ticekts',)
+        
+        labels = {
+            'booked_ticekts' : '',
+        }        
+        
+        widgets = {
+            'booked_ticekts' : forms.NumberInput(attrs={'class' : 'form-control fs-4', 'id' : 'ticket'})
+        }
+        

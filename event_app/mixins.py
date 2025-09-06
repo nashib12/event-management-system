@@ -1,7 +1,6 @@
 from django.core.exceptions import PermissionDenied
-# from django.shortcuts import get_object_or_404
 
-from .models import Profile, Venue, VenueStaffMember
+from .models import Profile, Venue, VenueStaffMember 
 
 class VenueOwnerMixin:
     def dispatch(self, request, *args, **kwargs):

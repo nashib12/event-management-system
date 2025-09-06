@@ -23,7 +23,15 @@ urlpatterns = [
     
     # ------------------------ Event Section -------------------------------
     path("event_create/",EventCreationView.as_view(),name="create-event"),
-    path("events/",EventListView.as_view(),name="events"),
+    path("list_events/",EventListView.as_view(),name="events"),
+    path("events/",EventView.as_view(),name="view_event"),
+    path("event_detail/<int:pk>",EventDetailView.as_view(),name="event-detail"),
     path("update_event/<int:pk>",UpdateEventView.as_view(), name="update-event"),
     path("delete_event/<int:pk>",DeleteEventView.as_view(), name="delete-event"),
+    
+    # --------------- Ticket Section ----------------------- 
+    path("create_ticket/",CreateTicketView.as_view(),name="create-ticket"),
+    path("book_event/",BookEventView.as_view(),name="book-ticket"),
+    path("remaing_ticket/",ticket,name="remain-ticket"),
+    path("cancel_booking/<int:id>",cancel_booking,name="cancel-booking"),
 ]

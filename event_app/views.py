@@ -1,19 +1,17 @@
-from django.shortcuts import render
-from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DeleteView
+from django.views.generic import TemplateView, CreateView, UpdateView, ListView, DeleteView, DetailView
 from django.contrib.auth.views import LoginView, PasswordChangeView
 from django.contrib.auth.models import User
 from django.urls import reverse_lazy
-from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login
 from django.contrib.messages.views import SuccessMessageMixin
-# from formtools.wizard.views import SessionWizardView
-# from django.utils.decorators import method_decorator
 from django.core.exceptions import PermissionDenied
+from django.http import HttpResponse
+from django.shortcuts import redirect, get_object_or_404
+from django.contrib import messages
 
 from .forms import *
 from .models import *
-# from .decorators import user_is_venue_owner
 from .mixins import *
 
 class HomeView(TemplateView):
@@ -42,29 +40,6 @@ class ProfileCreationView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super().form_valid(form)
-# def show_venue_form(wizard):
-#     cleaned_data = wizard.get_cleaned_data_for_step('0') or {}
-#     return cleaned_data.get('is_venue_owner')
-
-# class ProfileCreationView(SessionWizardView):
-#     form_list = [ProfileForm, VenueForm]
-#     template_name = "authenticate/create_profile.html"
-#     condition_dict = {"1" : show_venue_form}
-#     success_url = reverse_lazy("home")
-    
-#     def done(self, form_list, **kwargs):
-#         profile_form = form_list[0]
-#         form = profile_form.save(commit=False)
-#         form.user = self.request.user
-#         form.save()
-        
-#         if profile_form.cleaned_data.get('is_venue_owner'):
-#             venue_form = form_list[1]
-#             venue = venue_form.save(commit=False)
-#             venue.owner = self.request.user
-#             venue.save()
-        
-#         return
 
 class UserLoginView(LoginView):
     template_name = "authenticate/log_in.html"
@@ -153,6 +128,30 @@ class EventCreationView(LoginRequiredMixin, UserHasPermissionMixin, SuccessMessa
             instance.save()
         return super().form_valid(form)
     
+class EventView(LoginRequiredMixin, ListView):
+    model = Event
+    context_object_name = "events"
+    template_name = "event/event.html"
+    
+    def get_queryset(self):
+        return Event.objects.all().prefetch_related("tickets")
+    
+class EventDetailView(LoginRequiredMixin, DetailView):
+    model = Event
+    context_object_name = "events"
+    template_name = "event/event_detail.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        event = self.object
+        user = self.request.user
+        
+        has_bookking = event.get_user_booking(user)
+        context.update({
+            'has_booking' : has_bookking is not None,
+        })
+        return context
+    
 class EventListView(LoginRequiredMixin, ListView):
     model = Event
     context_object_name = "events"
@@ -191,6 +190,51 @@ class DeleteEventView(LoginRequiredMixin, SuccessMessageMixin, UserHasPermission
     success_url = reverse_lazy("events")
     template_name = "venue/venue_confirm_delete.html"
     
-
+# ---------------------------- Ticket Section --------------------------------
+class CreateTicketView(LoginRequiredMixin, SuccessMessageMixin, UserHasPermissionMixin, CreateView):
+    model = TotalTickets
+    form_class = TicketForm
+    success_message = "Ticket Create Successfully"
+    template_name = "tickets/create_ticket.html"
+    success_url = reverse_lazy("events")
     
-        
+    def form_valid(self, form):
+        event_id = self.request.GET.get("event_id")
+        instance = form.save(commit=False)
+        instance.event_id = event_id
+        instance.save()
+        return super().form_valid(form)
+
+def ticket(request):
+    event_id = request.GET.get("event_id")
+    tickets = TotalTickets.objects.get(event_id=event_id)
+    remainig_tickets = tickets.is_sold_out
+    return HttpResponse(f"Remaining Ticket: {remainig_tickets}")
+
+class BookEventView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = BookEvent
+    form_class = BookingForm
+    success_message = "Event Booked Successfully"
+    template_name = "tickets/book_event.html"
+    success_url = reverse_lazy("view_event")
+    
+    def form_valid(self, form):
+        tickets = form.cleaned_data["booked_ticekts"]
+        event_id = self.request.GET.get("event_id")
+        instance = form.save(commit=False)
+        instance.booked_event_id = event_id
+        instance.booked_by = self.request.user
+        instance.save()
+        sold_ticjets = TotalTickets.objects.get(event_id=event_id)
+        sold_ticjets.sold_tickets = sold_ticjets.sold_tickets + tickets
+        sold_ticjets.save()
+        return super().form_valid(form)
+    
+def cancel_booking(request, id):
+    booking = get_object_or_404(BookEvent, booked_event_id=id,booked_by=request.user)
+    tickets = get_object_or_404(TotalTickets, event_id=id)
+    tickets.sold_tickets = tickets.sold_tickets - booking.booked_ticekts
+    tickets.save()
+    booking.delete()
+    messages.success(request, "Booking cancelled successfully!")
+    return redirect("view_event")

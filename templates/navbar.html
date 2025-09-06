@@ -13,7 +13,7 @@
                 <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="{% url 'view-venue' %}">Venue</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="{% url 'events' %}">Events</a>
+                <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="{% url 'view_event' %}">Events</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-light {% if request.path == '/about/' %} selected_link  {% endif %}" href="#">Videos</a>
@@ -38,6 +38,7 @@
                         <li><a class="dropdown-item" href="{% url 'create-venue' %}"><i class="fa-solid fa-blog me-2"></i>&nbsp;Create a venue</a></li>
                         <li><a class="dropdown-item" href="{% url 'create-venue-staff' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;Create Staff Account</a></li>
                         <li><a class="dropdown-item" href="{% url 'create-event' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;Add Event</a></li>
+                        <li><a class="dropdown-item" href="{% url 'events' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;View Event</a></li>
                         <li><hr class="dropdown-divider"></li>  
                     {% endif %}
                     <li><a class="dropdown-item" href="{% url 'change-password' %}"><i class="fa-solid fa-key me-2"></i>&nbsp;Change Password</a></li>                

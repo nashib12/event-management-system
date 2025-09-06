@@ -7,7 +7,9 @@
   <div class="container">
     <h1 class="text-center fw-bold mb-3">Event List</h1>
     {% for event in events %}
-      <a href="{% url 'update-event' event.id %}" class="text-decoration-none"><h2>{{ event }}</h2></a><a href="{% url 'delete-event' event.id %}"><button class="btn btn-lg btn-danger fs-4 rounded-3">Delete Event</button></a>
+      <a href="{% url 'update-event' event.id %}" class="text-decoration-none"><h2>{{ event }}</h2></a>
+      <a href="{% url 'delete-event' event.id %}"><button class="btn btn-lg btn-danger fs-4 rounded-3">Delete Event</button></a>
+      <a href="{% url 'create-ticket' %}?event_id={{event.id}}"><button class="btn btn-lg btn-dark fs-4 rounded-3">Create Ticket</button></a>
     {% endfor %}
   </div>
 {% endblock content %}

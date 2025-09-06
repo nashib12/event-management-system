@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}
+  Event Detail
+{% endblock title %}
+
+{% block content %}
+  <div class="container">
+    <h1 class="text-center fw-bold mb-3">Event List</h1>
+
+      <h2>{{ events }}</h2>
+      {% if has_booking %}
+        <a href="{% url 'cancel-booking' events.id %}"><button class="btn btn-lg btn-danger fs-4 rounded3">Cancel booking</button></a>
+     {% else %}
+      {% with ticket=events.tickets  %}
+        {% if ticket.is_sold_out %}
+          <button class="btn btn-lg btn-dark fs-4 rounded-3">Sold Out</button>
+        {% else %}
+          <a href="{% url 'book-ticket' %}?event_id={{events.id}}"><button class="btn btn-lg btn-dark fs-4 rounded-3">Book Ticket</button></a>
+        {% endif %}
+      {% endwith %}
+      {% endif %}
+  </div>
+{% endblock content %}
