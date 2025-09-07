@@ -5,17 +5,31 @@ from django.urls import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth import login
 from django.contrib.messages.views import SuccessMessageMixin
-from django.core.exceptions import PermissionDenied
+from django.core.exceptions import PermissionDenied, ValidationError
 from django.http import HttpResponse
-from django.shortcuts import redirect, get_object_or_404
+from django.shortcuts import get_object_or_404
 from django.contrib import messages
 
 from .forms import *
 from .models import *
 from .mixins import *
+from .validators import password_validate
 
 class HomeView(TemplateView):
     template_name = "event_app/index.html"
+    
+class EventView(ListView):
+    model = Event
+    context_object_name = "events"
+    template_name = "event_app/event.html"
+    
+    def get_queryset(self):
+        return Event.objects.all().prefetch_related("tickets")
+
+class VenueListView(ListView):
+    model = Venue
+    context_object_name = "venues"
+    template_name = "event_app/venue.html"
 
 #------------------- Authentication section -------------------------
 class UserCreationView(CreateView):
@@ -25,11 +39,15 @@ class UserCreationView(CreateView):
     success_url = reverse_lazy("create-profile")
     
     def form_valid(self, form):
-        user = super().form_valid(form)
-        
-        login(self.request, self.object)
-        
-        return user
+        password = form.cleaned_data['password1']
+        try:
+            password_validate(password)
+            user = super().form_valid(form)
+            login(self.request, self.object)
+            return  user
+        except ValidationError as e:
+            messages.error(self.request, str(e))
+            return super().form_invalid(form)
     
 class ProfileCreationView(LoginRequiredMixin, CreateView):
     model = Profile
@@ -100,6 +118,8 @@ class VenueStaffCreateView(LoginRequiredMixin, SuccessMessageMixin, VenueOwnerMi
     template_name = "venue/add_venue_staff.html"
     
     def form_valid(self, form):
+        password = form.cleaned_data['password1']
+        password_validate(password)
         user = form.save()
         venue = Venue.objects.get(owner = self.request.user)
         first_name = form.cleaned_data['first_name']
@@ -127,14 +147,6 @@ class EventCreationView(LoginRequiredMixin, UserHasPermissionMixin, SuccessMessa
             instance.venue = staff.venue
             instance.save()
         return super().form_valid(form)
-    
-class EventView(LoginRequiredMixin, ListView):
-    model = Event
-    context_object_name = "events"
-    template_name = "event/event.html"
-    
-    def get_queryset(self):
-        return Event.objects.all().prefetch_related("tickets")
     
 class EventDetailView(LoginRequiredMixin, DetailView):
     model = Event
@@ -205,12 +217,6 @@ class CreateTicketView(LoginRequiredMixin, SuccessMessageMixin, UserHasPermissio
         instance.save()
         return super().form_valid(form)
 
-def ticket(request):
-    event_id = request.GET.get("event_id")
-    tickets = TotalTickets.objects.get(event_id=event_id)
-    remainig_tickets = tickets.is_sold_out
-    return HttpResponse(f"Remaining Ticket: {remainig_tickets}")
-
 class BookEventView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = BookEvent
     form_class = BookingForm
@@ -230,11 +236,25 @@ class BookEventView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         sold_ticjets.save()
         return super().form_valid(form)
     
-def cancel_booking(request, id):
-    booking = get_object_or_404(BookEvent, booked_event_id=id,booked_by=request.user)
-    tickets = get_object_or_404(TotalTickets, event_id=id)
-    tickets.sold_tickets = tickets.sold_tickets - booking.booked_ticekts
-    tickets.save()
-    booking.delete()
-    messages.success(request, "Booking cancelled successfully!")
-    return redirect("view_event")
+class CancelBookingView(LoginRequiredMixin, SuccessMessageMixin, DeleteView):
+    model = BookEvent
+    success_url = reverse_lazy("view_event")
+    success_message = "Booking cancelled successfully!"
+    template_name = "tickets/cancel_booking.html"
+    
+    def get_object(self, queryset=None):
+        event_id = self.kwargs.get('id') 
+        return get_object_or_404(BookEvent, booked_event_id=event_id, booked_by=self.request.user)
+    
+    def delete(self, request, *args, **kwargs):
+        booking = self.get_object()
+        event_id = booking.booked_event_id
+        
+        # Update ticket count
+        tickets = get_object_or_404(TotalTickets, event_id=event_id)
+        tickets.sold_tickets = tickets.sold_tickets - booking.booked_tickets
+        tickets.save()
+        
+        # Delete the booking
+        return super().delete(request, *args, **kwargs)
+    

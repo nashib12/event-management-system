@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from phonenumber_field.modelfields import PhoneNumberField
+from ckeditor.fields import RichTextField
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True, related_name="users")
@@ -86,7 +87,7 @@ class Event(models.Model):
     event_poster = models.ImageField(upload_to="event_poster/")
     event_manager = models.ForeignKey(VenueStaffMember, on_delete=models.DO_NOTHING, related_name="managers")
     event_type = models.ForeignKey(EventType, on_delete=models.DO_NOTHING, related_name="event_type", default="", null=True)
-    event_description = models.TextField()
+    event_description = RichTextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     

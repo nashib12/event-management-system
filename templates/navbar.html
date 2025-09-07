@@ -10,7 +10,7 @@
                 <a class="nav-link text-light {% if request.path == '/' %} fs-3 selected_link  {% endif %}" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="{% url 'view-venue' %}">Venue</a>
+                <a class="nav-link text-light {% if request.path == '/gallery/' %} selected_link  {% endif %}" href="{% url 'venue-list' %}">Venue</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-light {% if request.path == '/venue/' %} selected_link  {% endif %}" href="{% url 'view_event' %}">Events</a>
@@ -33,7 +33,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end fs-4 py-3 px-1">
                     {% if not request.user.is_superuser %}
-                        <li><a class="dropdown-item" href="#"><i class="fa-regular fa-id-card me-2"></i>&nbsp;View Profile</a></li>
+                        <li><a class="dropdown-item" href="{% url 'view-venue' %}"><i class="fa-regular fa-id-card me-2"></i>&nbsp;View Venue</a></li>
                         <li><a class="dropdown-item" href="{% url 'update-profile' user.id %}"><i class="fa-regular fa-id-card me-2"></i>&nbsp;Update Profile</a></li>
                         <li><a class="dropdown-item" href="{% url 'create-venue' %}"><i class="fa-solid fa-blog me-2"></i>&nbsp;Create a venue</a></li>
                         <li><a class="dropdown-item" href="{% url 'create-venue-staff' %}"><i class="fa-solid fa-image me-2"></i>&nbsp;Create Staff Account</a></li>

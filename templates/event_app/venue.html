@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}
+  Venues
+{% endblock title %}
+
+{% block content %}
+  <div class="container">
+    <h1 class="text-center fw-bold mb-3">Venue List</h1>
+    {% for venue in venues %}
+      <h2>{{ venue }}</h2>
+    {% endfor %}
+  </div>
+{% endblock content %}

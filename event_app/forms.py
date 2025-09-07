@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from datetime import datetime
 from calendar import month_name
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
+from ckeditor.widgets import CKEditorWidget
 
 from .models import Profile, Venue, Event, TotalTickets, BookEvent
 
@@ -112,7 +113,7 @@ class EventForm(forms.ModelForm):
             'event_poster' : forms.FileInput(attrs={'class':'form-control fs-4','id':'poster'}), 
             'event_type' : forms.Select(attrs={'class':'form-control fs-4','id':'etype'}), 
             'event_manager' : forms.Select(attrs={'class':'form-control fs-4','id':'manager'}), 
-            'event_description' : forms.Textarea(attrs={'class':'form-control fs-4','id':'description'}),
+            'event_description' : CKEditorWidget(attrs={'class':'form-control fs-4','id':'description'}),
         }
 
 class LoginForm(AuthenticationForm):
